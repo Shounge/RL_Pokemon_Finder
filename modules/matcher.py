@@ -84,6 +84,8 @@ def match_pokemon(pokemon_list, env):
         if score >= 3:
             results.append({
                 "name": pokemon["name"],
+                "sprite": pokemon.get("sprite"),
+                "types": pokemon.get("types", []),
                 "score": score,
                 "reasons": reasons
             })

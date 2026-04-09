@@ -3,116 +3,257 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Real-World Pokémon Habitat Finder</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 30px;
-            background: #f4f4f4;
-            color: #222;
-        }
-
-        .box {
-            background: white;
-            padding: 20px;
-            border-radius: 12px;
-            margin-bottom: 20px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-        }
-
-        input[type="text"] {
-            width: 70%;
-            padding: 10px;
-            font-size: 16px;
-        }
-
-        button {
-            padding: 10px 16px;
-            font-size: 16px;
-            cursor: pointer;
-        }
-
-        .error {
-            color: red;
-            font-weight: bold;
-        }
-
-        ul {
-            margin-top: 8px;
-        }
-    </style>
+    <title>PokéHabitat Finder</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
-    <div class="box">
-        <h1>Real-World Pokémon Habitat Finder</h1>
-        <form method="POST">
-            <input
-                type="text"
-                name="location"
-                placeholder="Enter a location"
-                value="{{ location_name or '' }}"
-            >
-            <button type="submit">Find Pokémon</button>
-        </form>
-    </div>
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-grid"></div>
 
-    {% if error %}
-        <div class="box error">{{ error }}</div>
-    {% endif %}
+    <main class="page-shell">
+        <section class="hero-card">
+            <div class="hero-top">
+                <div>
+                    <p class="eyebrow">REAL-WORLD POKÉMON HABITAT FINDER</p>
+                    <h1>Discover what Pokémon would live there.</h1>
+                    <p class="hero-copy">
+                        Enter any real-world location and get a wild encounter plus a ranked list
+                        based on habitat, weather, terrain, water access, and region.
+                    </p>
+                </div>
 
-    {% if location %}
-        <div class="box">
-            <h2>Location</h2>
-            <p><strong>{{ location.name }}, {{ location.country }}</strong></p>
-            <p>Latitude: {{ location.latitude }}</p>
-            <p>Longitude: {{ location.longitude }}</p>
-        </div>
-
-        <div class="box">
-            <h2>Environment</h2>
-            <p>Habitat: {{ environment.habitat }}</p>
-            <p>Weather: {{ environment.weather }}</p>
-            <p>Terrain: {{ environment.terrain }}</p>
-            <p>Temperature: {{ environment.temperature_c }}°C</p>
-            <p>Near water: {{ environment.near_water }}</p>
-            <p>Urban: {{ environment.urban }}</p>
-            <p>Broad region: {{ environment.broad_region }}</p>
-        </div>
-
-        {% if encounter %}
-            <div class="box">
-                <h2>Wild Encounter</h2>
-                <h3>{{ encounter.name }}</h3>
-                <p>Chance: {{ encounter.chance }}%</p>
-                <ul>
-                    {% for reason in encounter.reasons %}
-                        <li>{{ reason }}</li>
-                    {% endfor %}
-                </ul>
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    Rule-based habitat matching
+                </div>
             </div>
+
+            <form method="POST" class="search-form" id="searchForm">
+                <div class="search-input-wrap">
+                    <input
+                        type="text"
+                        name="location"
+                        id="locationInput"
+                        placeholder="Try Tokyo, Sahara Desert, Swiss Alps..."
+                        value="{{ location_name or '' }}"
+                        autocomplete="off"
+                    >
+                    <button type="submit" class="primary-btn" id="searchBtn">
+                        <span class="btn-text">Find Pokémon</span>
+                        <span class="btn-loader hidden"></span>
+                    </button>
+                </div>
+
+                <div class="quick-picks">
+                    <button type="button" class="quick-pick" data-location="Tokyo">Tokyo</button>
+                    <button type="button" class="quick-pick" data-location="Sahara Desert">Sahara Desert</button>
+                    <button type="button" class="quick-pick" data-location="Danube Delta">Danube Delta</button>
+                    <button type="button" class="quick-pick" data-location="Swiss Alps">Swiss Alps</button>
+                    <button type="button" class="quick-pick" data-location="Amazon Rainforest">Amazon Rainforest</button>
+                </div>
+            </form>
+        </section>
+
+        {% if error %}
+        <section class="panel error-panel reveal">
+            <div class="panel-header">
+                <h2>Something went wrong</h2>
+            </div>
+            <p>{{ error }}</p>
+        </section>
         {% endif %}
 
-        <div class="box">
-            <h2>All Matches</h2>
-            {% if results %}
-                {% for pokemon in results %}
-                    <div style="margin-bottom: 16px;">
-                        <strong>{{ pokemon.name }}</strong>
-                        — score: {{ pokemon.score }}
-                        — chance: {{ pokemon.chance }}%
-                        <ul>
-                            {% for reason in pokemon.reasons %}
-                                <li>{{ reason }}</li>
-                            {% endfor %}
-                        </ul>
+        {% if location %}
+        <section class="results-shell">
+            <div class="results-main">
+                {% if encounter %}
+                <section class="panel encounter-panel reveal">
+                    <div class="encounter-showcase">
+                        {% if encounter.sprite %}
+                        <div class="encounter-art">
+                            <img
+                                src="{{ encounter.sprite }}"
+                                alt="{{ encounter.name }}"
+                                class="pokemon-sprite pokemon-sprite-large"
+                            >
+                        </div>
+                        {% endif %}
+
+                        <div class="encounter-content">
+                            <div class="encounter-header">
+                                <div>
+                                    <p class="eyebrow">WILD ENCOUNTER</p>
+                                    <h2>{{ encounter.name }}</h2>
+                                </div>
+                                <div class="encounter-pill">
+                                    {{ encounter.chance }}% chance
+                                </div>
+                            </div>
+
+                            <p class="encounter-subtitle">
+                                This Pokémon was selected from the weighted match pool for this location.
+                            </p>
+
+                            <div class="reasons-list">
+                                {% for reason in encounter.reasons %}
+                                <div class="reason-chip">{{ reason }}</div>
+                                {% endfor %}
+                            </div>
+
+                            <div class="encounter-actions">
+                                <button type="button" class="secondary-btn" id="scrollToMatches">
+                                    View all matches
+                                </button>
+                            </div>
+                        </div>
                     </div>
+                </section>
+                {% endif %}
+
+                <section class="panel reveal">
+                    <div class="panel-header">
+                        <div>
+                            <p class="eyebrow">LOCATION</p>
+                            <h2>{{ location.name }}, {{ location.country }}</h2>
+                        </div>
+                    </div>
+
+                    <div class="meta-grid">
+                        <div class="meta-card">
+                            <span class="meta-label">Latitude</span>
+                            <span class="meta-value">{{ location.latitude }}</span>
+                        </div>
+                        <div class="meta-card">
+                            <span class="meta-label">Longitude</span>
+                            <span class="meta-value">{{ location.longitude }}</span>
+                        </div>
+                        <div class="meta-card">
+                            <span class="meta-label">Feature code</span>
+                            <span class="meta-value">{{ location.feature_code or "Unknown" }}</span>
+                        </div>
+                        <div class="meta-card">
+                            <span class="meta-label">Population</span>
+                            <span class="meta-value">{{ location.population or 0 }}</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="panel reveal">
+                    <div class="panel-header">
+                        <div>
+                            <p class="eyebrow">ENVIRONMENT PROFILE</p>
+                            <h2>What the system inferred</h2>
+                        </div>
+                    </div>
+
+                    <div class="env-chip-grid">
+                        <div class="env-chip"><span>Habitat</span><strong>{{ environment.habitat }}</strong></div>
+                        <div class="env-chip"><span>Weather</span><strong>{{ environment.weather }}</strong></div>
+                        <div class="env-chip"><span>Terrain</span><strong>{{ environment.terrain }}</strong></div>
+                        <div class="env-chip"><span>Temperature</span><strong>{{ environment.temperature_c }}°C</strong></div>
+                        <div class="env-chip"><span>Near water</span><strong>{{ environment.near_water }}</strong></div>
+                        <div class="env-chip"><span>Urban</span><strong>{{ environment.urban }}</strong></div>
+                        <div class="env-chip"><span>Broad region</span><strong>{{ environment.broad_region }}</strong></div>
+                        <div class="env-chip"><span>Elevation</span><strong>{{ environment.elevation_m }} m</strong></div>
+                    </div>
+                </section>
+            </div>
+
+            <aside class="results-side">
+                <section class="panel sticky-panel reveal">
+                    <div class="panel-header">
+                        <div>
+                            <p class="eyebrow">MATCH POOL</p>
+                            <h2>{{ results|length }} possible Pokémon</h2>
+                        </div>
+                    </div>
+
+                    <div class="mini-stats">
+                        <div class="mini-stat">
+                            <span class="mini-stat-label">Top score</span>
+                            <strong>{{ results[0].score if results else 0 }}</strong>
+                        </div>
+                        <div class="mini-stat">
+                            <span class="mini-stat-label">Encountered</span>
+                            <strong>{{ encounter.name if encounter else "None" }}</strong>
+                        </div>
+                    </div>
+
+                    <p class="side-note">
+                        Stronger habitat matches and environment fit increase weighted encounter chance.
+                    </p>
+                </section>
+            </aside>
+        </section>
+
+        <section class="panel reveal" id="matchesSection">
+            <div class="matches-toolbar">
+                <div>
+                    <p class="eyebrow">RANKED RESULTS</p>
+                    <h2>All likely Pokémon</h2>
+                </div>
+
+                <div class="toolbar-controls">
+                    <input
+                        type="text"
+                        id="matchSearch"
+                        class="filter-input"
+                        placeholder="Filter Pokémon..."
+                    >
+                    <button type="button" class="secondary-btn" id="toggleReasonsBtn">
+                        Collapse reasons
+                    </button>
+                </div>
+            </div>
+
+            {% if results %}
+            <div class="match-list" id="matchList">
+                {% for pokemon in results %}
+                <article class="match-card" data-name="{{ pokemon.name|lower }}">
+                    <div class="match-top">
+                        <div class="match-main">
+                            <div class="match-identity">
+                                {% if pokemon.sprite %}
+                                <div class="match-sprite-wrap">
+                                    <img
+                                        src="{{ pokemon.sprite }}"
+                                        alt="{{ pokemon.name }}"
+                                        class="pokemon-sprite"
+                                    >
+                                </div>
+                                {% endif %}
+
+                                <div class="match-copy">
+                                    <h3>{{ loop.index }}. {{ pokemon.name }}</h3>
+                                    <div class="match-badges">
+                                        <span class="score-badge">Score {{ pokemon.score }}</span>
+                                        <span class="chance-badge">{{ pokemon.chance }}%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="chance-bar">
+                        <div class="chance-bar-fill" style="width: {{ pokemon.chance }}%;"></div>
+                    </div>
+
+                    <div class="reason-group">
+                        {% for reason in pokemon.reasons %}
+                        <span class="reason-pill">{{ reason }}</span>
+                        {% endfor %}
+                    </div>
+                </article>
                 {% endfor %}
+            </div>
             {% else %}
-                <p>No Pokémon found.</p>
+            <p>No Pokémon found.</p>
             {% endif %}
-        </div>
-    {% endif %}
+        </section>
+        {% endif %}
+    </main>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
 </body>
 </html>

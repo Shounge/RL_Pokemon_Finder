@@ -84,6 +84,7 @@ def merge_unique(*lists):
 def build_pokemon_record(name):
     pokemon = get_json(f"{POKEAPI_BASE}/pokemon/{name}")
     species = get_json(f"{POKEAPI_BASE}/pokemon-species/{name}")
+    sprite = pokemon["sprites"]["front_default"]
 
     types = [entry["type"]["name"] for entry in pokemon["types"]]
     official_habitat = species["habitat"]["name"] if species["habitat"] else None
@@ -117,6 +118,7 @@ def build_pokemon_record(name):
         "habitats": habitats,
         "weather": weather,
         "near_water": near_water,
+        "sprite": sprite,
     }
 
 def build_pokemon_data(filepath="data/pokemon_data.json", limit=151):

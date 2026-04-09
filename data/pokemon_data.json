@@ -15,7 +15,8 @@
       "cloudy",
       "rain"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
   },
   {
     "name": "Ivysaur",
@@ -33,7 +34,8 @@
       "cloudy",
       "rain"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
   },
   {
     "name": "Venusaur",
@@ -51,7 +53,8 @@
       "cloudy",
       "rain"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
   },
   {
     "name": "Charmander",
@@ -66,7 +69,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
   },
   {
     "name": "Charmeleon",
@@ -81,7 +85,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
   },
   {
     "name": "Charizard",
@@ -97,7 +102,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
   },
   {
     "name": "Squirtle",
@@ -113,7 +119,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
   },
   {
     "name": "Wartortle",
@@ -129,7 +136,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png"
   },
   {
     "name": "Blastoise",
@@ -145,7 +153,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"
   },
   {
     "name": "Caterpie",
@@ -160,7 +169,8 @@
       "cloudy",
       "rain"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png"
   },
   {
     "name": "Metapod",
@@ -175,7 +185,8 @@
       "cloudy",
       "rain"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png"
   },
   {
     "name": "Butterfree",
@@ -191,7 +202,8 @@
       "cloudy",
       "rain"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
   },
   {
     "name": "Weedle",
@@ -207,7 +219,8 @@
       "cloudy",
       "rain"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png"
   },
   {
     "name": "Kakuna",
@@ -223,7 +236,8 @@
       "cloudy",
       "rain"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png"
   },
   {
     "name": "Beedrill",
@@ -239,7 +253,8 @@
       "cloudy",
       "rain"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png"
   },
   {
     "name": "Pidgey",
@@ -255,7 +270,8 @@
       "cloudy",
       "rain"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png"
   },
   {
     "name": "Pidgeotto",
@@ -271,7 +287,8 @@
       "cloudy",
       "rain"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png"
   },
   {
     "name": "Pidgeot",
@@ -287,7 +304,8 @@
       "cloudy",
       "rain"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png"
   },
   {
     "name": "Rattata",
@@ -302,7 +320,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png"
   },
   {
     "name": "Raticate",
@@ -317,7 +336,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png"
   },
   {
     "name": "Spearow",
@@ -334,7 +354,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png"
   },
   {
     "name": "Fearow",
@@ -351,7 +372,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png"
   },
   {
     "name": "Ekans",
@@ -366,7 +388,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png"
   },
   {
     "name": "Arbok",
@@ -381,7 +404,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png"
   },
   {
     "name": "Pikachu",
@@ -397,7 +421,8 @@
       "cloudy",
       "rain"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
   },
   {
     "name": "Raichu",
@@ -413,7 +438,8 @@
       "cloudy",
       "rain"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png"
   },
   {
     "name": "Sandshrew",
@@ -429,7 +455,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png"
   },
   {
     "name": "Sandslash",
@@ -445,7 +472,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png"
   },
   {
     "name": "Nidoran-f",
@@ -460,7 +488,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png"
   },
   {
     "name": "Nidorina",
@@ -475,7 +504,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png"
   },
   {
     "name": "Nidoqueen",
@@ -492,7 +522,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png"
   },
   {
     "name": "Nidoran-m",
@@ -507,7 +538,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png"
   },
   {
     "name": "Nidorino",
@@ -522,7 +554,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png"
   },
   {
     "name": "Nidoking",
@@ -539,7 +572,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png"
   },
   {
     "name": "Clefairy",
@@ -554,7 +588,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png"
   },
   {
     "name": "Clefable",
@@ -569,7 +604,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png"
   },
   {
     "name": "Vulpix",
@@ -585,7 +621,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png"
   },
   {
     "name": "Ninetales",
@@ -601,7 +638,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png"
   },
   {
     "name": "Jigglypuff",
@@ -617,7 +655,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png"
   },
   {
     "name": "Wigglytuff",
@@ -633,7 +672,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png"
   },
   {
     "name": "Zubat",
@@ -647,7 +687,8 @@
     "weather": [
       "any"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png"
   },
   {
     "name": "Golbat",
@@ -661,7 +702,8 @@
     "weather": [
       "any"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png"
   },
   {
     "name": "Oddish",
@@ -679,7 +721,8 @@
       "cloudy",
       "rain"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png"
   },
   {
     "name": "Gloom",
@@ -697,7 +740,8 @@
       "cloudy",
       "rain"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png"
   },
   {
     "name": "Vileplume",
@@ -715,7 +759,8 @@
       "cloudy",
       "rain"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png"
   },
   {
     "name": "Paras",
@@ -731,7 +776,8 @@
       "cloudy",
       "rain"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png"
   },
   {
     "name": "Parasect",
@@ -747,7 +793,8 @@
       "cloudy",
       "rain"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png"
   },
   {
     "name": "Venonat",
@@ -763,7 +810,8 @@
       "cloudy",
       "rain"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png"
   },
   {
     "name": "Venomoth",
@@ -779,7 +827,8 @@
       "cloudy",
       "rain"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png"
   },
   {
     "name": "Diglett",
@@ -793,7 +842,8 @@
     "weather": [
       "any"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png"
   },
   {
     "name": "Dugtrio",
@@ -807,7 +857,8 @@
     "weather": [
       "any"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png"
   },
   {
     "name": "Meowth",
@@ -820,7 +871,8 @@
     "weather": [
       "any"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png"
   },
   {
     "name": "Persian",
@@ -833,7 +885,8 @@
     "weather": [
       "any"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png"
   },
   {
     "name": "Psyduck",
@@ -849,7 +902,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png"
   },
   {
     "name": "Golduck",
@@ -865,7 +919,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png"
   },
   {
     "name": "Mankey",
@@ -880,7 +935,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png"
   },
   {
     "name": "Primeape",
@@ -895,7 +951,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png"
   },
   {
     "name": "Growlithe",
@@ -911,7 +968,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png"
   },
   {
     "name": "Arcanine",
@@ -927,7 +985,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png"
   },
   {
     "name": "Poliwag",
@@ -943,7 +1002,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png"
   },
   {
     "name": "Poliwhirl",
@@ -959,7 +1019,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png"
   },
   {
     "name": "Poliwrath",
@@ -976,7 +1037,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png"
   },
   {
     "name": "Abra",
@@ -989,7 +1051,8 @@
     "weather": [
       "any"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png"
   },
   {
     "name": "Kadabra",
@@ -1002,7 +1065,8 @@
     "weather": [
       "any"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png"
   },
   {
     "name": "Alakazam",
@@ -1015,7 +1079,8 @@
     "weather": [
       "any"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png"
   },
   {
     "name": "Machop",
@@ -1030,7 +1095,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png"
   },
   {
     "name": "Machoke",
@@ -1045,7 +1111,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png"
   },
   {
     "name": "Machamp",
@@ -1060,7 +1127,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png"
   },
   {
     "name": "Bellsprout",
@@ -1076,7 +1144,8 @@
       "cloudy",
       "rain"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png"
   },
   {
     "name": "Weepinbell",
@@ -1092,7 +1161,8 @@
       "cloudy",
       "rain"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png"
   },
   {
     "name": "Victreebel",
@@ -1108,7 +1178,8 @@
       "cloudy",
       "rain"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png"
   },
   {
     "name": "Tentacool",
@@ -1125,7 +1196,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png"
   },
   {
     "name": "Tentacruel",
@@ -1142,7 +1214,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png"
   },
   {
     "name": "Geodude",
@@ -1159,7 +1232,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png"
   },
   {
     "name": "Graveler",
@@ -1176,7 +1250,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png"
   },
   {
     "name": "Golem",
@@ -1193,7 +1268,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png"
   },
   {
     "name": "Ponyta",
@@ -1209,7 +1285,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png"
   },
   {
     "name": "Rapidash",
@@ -1225,7 +1302,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png"
   },
   {
     "name": "Slowpoke",
@@ -1242,7 +1320,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png"
   },
   {
     "name": "Slowbro",
@@ -1259,7 +1338,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png"
   },
   {
     "name": "Magnemite",
@@ -1277,7 +1357,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png"
   },
   {
     "name": "Magneton",
@@ -1295,7 +1376,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png"
   },
   {
     "name": "Farfetchd",
@@ -1311,7 +1393,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png"
   },
   {
     "name": "Doduo",
@@ -1327,7 +1410,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png"
   },
   {
     "name": "Dodrio",
@@ -1343,7 +1427,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png"
   },
   {
     "name": "Seel",
@@ -1359,7 +1444,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png"
   },
   {
     "name": "Dewgong",
@@ -1376,7 +1462,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png"
   },
   {
     "name": "Grimer",
@@ -1389,7 +1476,8 @@
     "weather": [
       "any"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png"
   },
   {
     "name": "Muk",
@@ -1402,7 +1490,8 @@
     "weather": [
       "any"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png"
   },
   {
     "name": "Shellder",
@@ -1418,7 +1507,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png"
   },
   {
     "name": "Cloyster",
@@ -1435,7 +1525,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png"
   },
   {
     "name": "Gastly",
@@ -1451,7 +1542,8 @@
       "night",
       "any"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png"
   },
   {
     "name": "Haunter",
@@ -1467,7 +1559,8 @@
       "night",
       "any"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png"
   },
   {
     "name": "Gengar",
@@ -1483,7 +1576,8 @@
       "night",
       "any"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png"
   },
   {
     "name": "Onix",
@@ -1499,7 +1593,8 @@
     "weather": [
       "any"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png"
   },
   {
     "name": "Drowzee",
@@ -1514,7 +1609,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png"
   },
   {
     "name": "Hypno",
@@ -1529,7 +1625,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png"
   },
   {
     "name": "Krabby",
@@ -1545,7 +1642,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png"
   },
   {
     "name": "Kingler",
@@ -1561,7 +1659,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png"
   },
   {
     "name": "Voltorb",
@@ -1575,7 +1674,8 @@
     "weather": [
       "any"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png"
   },
   {
     "name": "Electrode",
@@ -1589,7 +1689,8 @@
     "weather": [
       "any"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png"
   },
   {
     "name": "Exeggcute",
@@ -1605,7 +1706,8 @@
       "cloudy",
       "rain"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png"
   },
   {
     "name": "Exeggutor",
@@ -1621,7 +1723,8 @@
       "cloudy",
       "rain"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png"
   },
   {
     "name": "Cubone",
@@ -1637,7 +1740,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png"
   },
   {
     "name": "Marowak",
@@ -1653,7 +1757,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png"
   },
   {
     "name": "Hitmonlee",
@@ -1666,7 +1771,8 @@
     "weather": [
       "any"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png"
   },
   {
     "name": "Hitmonchan",
@@ -1679,7 +1785,8 @@
     "weather": [
       "any"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png"
   },
   {
     "name": "Lickitung",
@@ -1694,7 +1801,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png"
   },
   {
     "name": "Koffing",
@@ -1707,7 +1815,8 @@
     "weather": [
       "any"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png"
   },
   {
     "name": "Weezing",
@@ -1720,7 +1829,8 @@
     "weather": [
       "any"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png"
   },
   {
     "name": "Rhyhorn",
@@ -1737,7 +1847,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png"
   },
   {
     "name": "Rhydon",
@@ -1754,7 +1865,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png"
   },
   {
     "name": "Chansey",
@@ -1767,7 +1879,8 @@
     "weather": [
       "any"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png"
   },
   {
     "name": "Tangela",
@@ -1784,7 +1897,8 @@
       "cloudy",
       "rain"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png"
   },
   {
     "name": "Kangaskhan",
@@ -1799,7 +1913,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png"
   },
   {
     "name": "Horsea",
@@ -1815,7 +1930,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png"
   },
   {
     "name": "Seadra",
@@ -1831,7 +1947,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png"
   },
   {
     "name": "Goldeen",
@@ -1847,7 +1964,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png"
   },
   {
     "name": "Seaking",
@@ -1863,7 +1981,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png"
   },
   {
     "name": "Staryu",
@@ -1879,7 +1998,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png"
   },
   {
     "name": "Starmie",
@@ -1896,7 +2016,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png"
   },
   {
     "name": "Mr-mime",
@@ -1910,7 +2031,8 @@
     "weather": [
       "any"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png"
   },
   {
     "name": "Scyther",
@@ -1927,7 +2049,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png"
   },
   {
     "name": "Jynx",
@@ -1941,7 +2064,8 @@
     "weather": [
       "any"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png"
   },
   {
     "name": "Electabuzz",
@@ -1956,7 +2080,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png"
   },
   {
     "name": "Magmar",
@@ -1971,7 +2096,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png"
   },
   {
     "name": "Pinsir",
@@ -1986,7 +2112,8 @@
       "cloudy",
       "rain"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png"
   },
   {
     "name": "Tauros",
@@ -2001,7 +2128,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png"
   },
   {
     "name": "Magikarp",
@@ -2017,7 +2145,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png"
   },
   {
     "name": "Gyarados",
@@ -2034,7 +2163,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png"
   },
   {
     "name": "Lapras",
@@ -2051,7 +2181,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png"
   },
   {
     "name": "Ditto",
@@ -2064,7 +2195,8 @@
     "weather": [
       "any"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png"
   },
   {
     "name": "Eevee",
@@ -2077,7 +2209,8 @@
     "weather": [
       "any"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"
   },
   {
     "name": "Vaporeon",
@@ -2093,7 +2226,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png"
   },
   {
     "name": "Jolteon",
@@ -2107,7 +2241,8 @@
     "weather": [
       "any"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png"
   },
   {
     "name": "Flareon",
@@ -2121,7 +2256,8 @@
     "weather": [
       "clear"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png"
   },
   {
     "name": "Porygon",
@@ -2134,7 +2270,8 @@
     "weather": [
       "any"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png"
   },
   {
     "name": "Omanyte",
@@ -2152,7 +2289,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png"
   },
   {
     "name": "Omastar",
@@ -2170,7 +2308,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png"
   },
   {
     "name": "Kabuto",
@@ -2188,7 +2327,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png"
   },
   {
     "name": "Kabutops",
@@ -2206,7 +2346,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png"
   },
   {
     "name": "Aerodactyl",
@@ -2222,7 +2363,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png"
   },
   {
     "name": "Snorlax",
@@ -2237,7 +2379,8 @@
       "clear",
       "cloudy"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png"
   },
   {
     "name": "Articuno",
@@ -2251,7 +2394,8 @@
     "weather": [
       "any"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png"
   },
   {
     "name": "Zapdos",
@@ -2265,7 +2409,8 @@
     "weather": [
       "any"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png"
   },
   {
     "name": "Moltres",
@@ -2280,7 +2425,8 @@
     "weather": [
       "clear"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png"
   },
   {
     "name": "Dratini",
@@ -2296,7 +2442,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png"
   },
   {
     "name": "Dragonair",
@@ -2312,7 +2459,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png"
   },
   {
     "name": "Dragonite",
@@ -2329,7 +2477,8 @@
     "weather": [
       "any"
     ],
-    "near_water": true
+    "near_water": true,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png"
   },
   {
     "name": "Mewtwo",
@@ -2342,7 +2491,8 @@
     "weather": [
       "any"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png"
   },
   {
     "name": "Mew",
@@ -2355,6 +2505,7 @@
     "weather": [
       "any"
     ],
-    "near_water": false
+    "near_water": false,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png"
   }
 ]
