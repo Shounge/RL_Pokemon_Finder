@@ -64,10 +64,10 @@ def score_pokemon(pokemon, env):
         reasons.append("biome mismatch")
 
     if "any" in temperature_bands or env_temp_band in temperature_bands:
-        score += 2
+        score += 3
         reasons.append(f"comfortable in {env_temp_band} temperatures")
     else:
-        score -= 3
+        score -= 5
         reasons.append(f"temperature mismatch: {env_temp_band}")
 
     return score, reasons
