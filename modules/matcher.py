@@ -1,3 +1,6 @@
+import random
+
+
 def score_pokemon(pokemon, env):
     score = 0
     reasons = []
@@ -41,11 +44,29 @@ def match_pokemon(pokemon_list, env):
 
     for pokemon in pokemon_list:
         score, reasons = score_pokemon(pokemon, env)
-        results.append({
-            "name": pokemon["name"],
-            "score": score,
-            "reasons": reasons
-        })
+        if score > 0:
+            results.append({
+                "name": pokemon["name"],
+                "score": score,
+                "reasons": reasons
+            })
 
     results.sort(key=lambda p: p["score"], reverse=True)
+
+    total_score = sum(p["score"] for p in results)
+    if total_score > 0:
+        for pokemon in results:
+            pokemon["chance"] = round((pokemon["score"] / total_score) * 100, 2)
+    else:
+        for pokemon in results:
+            pokemon["chance"] = 0.0
+
     return results
+
+
+def choose_random_pokemon(results):
+    if not results:
+        return None
+
+    weights = [pokemon["score"] for pokemon in results]
+    return random.choices(results, weights=weights, k=1)[0]
