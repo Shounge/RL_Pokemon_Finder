@@ -1,0 +1,450 @@
+environment,pokemon,count,share
+Dense Urban Core,Abra,60,0.06
+Dense Urban Core,Muk,59,0.059
+Dense Urban Core,Hitmonchan,56,0.056
+Dense Urban Core,Eevee,55,0.055
+Dense Urban Core,Electrode,53,0.053
+Dense Urban Core,Jynx,53,0.053
+Dense Urban Core,Persian,52,0.052
+Dense Urban Core,Chansey,51,0.051
+Dense Urban Core,Mr-mime,50,0.05
+Dense Urban Core,Kadabra,49,0.049
+Dense Urban Core,Weezing,48,0.048
+Dense Urban Core,Grimer,44,0.044
+Dense Urban Core,Koffing,44,0.044
+Dense Urban Core,Meowth,43,0.043
+Dense Urban Core,Hitmonlee,43,0.043
+Dense Urban Core,Porygon,41,0.041
+Dense Urban Core,Flareon,39,0.039
+Dense Urban Core,Voltorb,38,0.038
+Dense Urban Core,Jolteon,37,0.037
+Dense Urban Core,Ditto,36,0.036
+Dense Urban Core,Alakazam,33,0.033
+Dense Urban Core,Vaporeon,16,0.016
+Rainy Waterfront City,Eevee,60,0.06
+Rainy Waterfront City,Jynx,54,0.054
+Rainy Waterfront City,Hitmonchan,54,0.054
+Rainy Waterfront City,Alakazam,53,0.053
+Rainy Waterfront City,Ditto,51,0.051
+Rainy Waterfront City,Porygon,51,0.051
+Rainy Waterfront City,Kadabra,49,0.049
+Rainy Waterfront City,Muk,49,0.049
+Rainy Waterfront City,Abra,47,0.047
+Rainy Waterfront City,Persian,47,0.047
+Rainy Waterfront City,Weezing,45,0.045
+Rainy Waterfront City,Chansey,44,0.044
+Rainy Waterfront City,Meowth,44,0.044
+Rainy Waterfront City,Mr-mime,43,0.043
+Rainy Waterfront City,Electrode,42,0.042
+Rainy Waterfront City,Jolteon,40,0.04
+Rainy Waterfront City,Koffing,40,0.04
+Rainy Waterfront City,Hitmonlee,39,0.039
+Rainy Waterfront City,Grimer,39,0.039
+Rainy Waterfront City,Flareon,38,0.038
+Rainy Waterfront City,Voltorb,38,0.038
+Rainy Waterfront City,Vaporeon,33,0.033
+Open Grassland,Jigglypuff,42,0.042
+Open Grassland,Wigglytuff,41,0.041
+Open Grassland,Venusaur,38,0.038
+Open Grassland,Drowzee,37,0.037
+Open Grassland,Lickitung,34,0.034
+Open Grassland,Doduo,34,0.034
+Open Grassland,Raticate,34,0.034
+Open Grassland,Nidorina,34,0.034
+Open Grassland,Farfetchd,33,0.033
+Open Grassland,Tauros,33,0.033
+Open Grassland,Vileplume,33,0.033
+Open Grassland,Ninetales,32,0.032
+Open Grassland,Ekans,31,0.031
+Open Grassland,Electabuzz,31,0.031
+Open Grassland,Ponyta,30,0.03
+Open Grassland,Tangela,29,0.029
+Open Grassland,Kangaskhan,29,0.029
+Open Grassland,Growlithe,28,0.028
+Open Grassland,Ivysaur,28,0.028
+Open Grassland,Gloom,28,0.028
+Open Grassland,Bulbasaur,27,0.027
+Open Grassland,Rapidash,27,0.027
+Open Grassland,Scyther,25,0.025
+Open Grassland,Nidoran-f,25,0.025
+Open Grassland,Nidoqueen,25,0.025
+Open Grassland,Nidorino,25,0.025
+Open Grassland,Nidoking,24,0.024
+Open Grassland,Hypno,23,0.023
+Open Grassland,Dodrio,22,0.022
+Open Grassland,Arbok,21,0.021
+Open Grassland,Arcanine,21,0.021
+Open Grassland,Rattata,20,0.02
+Open Grassland,Vulpix,19,0.019
+Open Grassland,Nidoran-m,19,0.019
+Open Grassland,Oddish,18,0.018
+Windy Plains,Mew,30,0.03
+Windy Plains,Doduo,30,0.03
+Windy Plains,Zapdos,29,0.029
+Windy Plains,Nidorina,28,0.028
+Windy Plains,Nidoran-m,27,0.027
+Windy Plains,Articuno,27,0.027
+Windy Plains,Mewtwo,26,0.026
+Windy Plains,Growlithe,26,0.026
+Windy Plains,Wigglytuff,25,0.025
+Windy Plains,Drowzee,24,0.024
+Windy Plains,Gloom,24,0.024
+Windy Plains,Venusaur,24,0.024
+Windy Plains,Farfetchd,24,0.024
+Windy Plains,Hypno,23,0.023
+Windy Plains,Nidorino,23,0.023
+Windy Plains,Nidoran-f,23,0.023
+Windy Plains,Oddish,23,0.023
+Windy Plains,Magnemite,23,0.023
+Windy Plains,Vulpix,22,0.022
+Windy Plains,Ponyta,22,0.022
+Windy Plains,Ivysaur,22,0.022
+Windy Plains,Arbok,21,0.021
+Windy Plains,Ninetales,21,0.021
+Windy Plains,Raichu,21,0.021
+Windy Plains,Nidoqueen,21,0.021
+Windy Plains,Ekans,21,0.021
+Windy Plains,Jigglypuff,21,0.021
+Windy Plains,Kangaskhan,20,0.02
+Windy Plains,Electrode,20,0.02
+Windy Plains,Rattata,19,0.019
+Windy Plains,Tangela,19,0.019
+Windy Plains,Nidoking,19,0.019
+Windy Plains,Jolteon,19,0.019
+Windy Plains,Scyther,19,0.019
+Windy Plains,Bulbasaur,19,0.019
+Windy Plains,Dodrio,18,0.018
+Windy Plains,Voltorb,18,0.018
+Windy Plains,Raticate,18,0.018
+Windy Plains,Arcanine,18,0.018
+Windy Plains,Magneton,17,0.017
+Windy Plains,Electabuzz,17,0.017
+Windy Plains,Pikachu,17,0.017
+Windy Plains,Moltres,16,0.016
+Windy Plains,Vileplume,16,0.016
+Windy Plains,Lickitung,15,0.015
+Windy Plains,Rapidash,13,0.013
+Windy Plains,Tauros,12,0.012
+Temperate Forest,Caterpie,51,0.051
+Temperate Forest,Beedrill,46,0.046
+Temperate Forest,Kakuna,45,0.045
+Temperate Forest,Tangela,44,0.044
+Temperate Forest,Raichu,39,0.039
+Temperate Forest,Bulbasaur,39,0.039
+Temperate Forest,Gloom,38,0.038
+Temperate Forest,Parasect,37,0.037
+Temperate Forest,Pinsir,37,0.037
+Temperate Forest,Exeggcute,37,0.037
+Temperate Forest,Pidgeotto,35,0.035
+Temperate Forest,Weepinbell,35,0.035
+Temperate Forest,Weedle,34,0.034
+Temperate Forest,Metapod,34,0.034
+Temperate Forest,Butterfree,33,0.033
+Temperate Forest,Exeggutor,33,0.033
+Temperate Forest,Pidgey,33,0.033
+Temperate Forest,Bellsprout,33,0.033
+Temperate Forest,Oddish,32,0.032
+Temperate Forest,Venusaur,32,0.032
+Temperate Forest,Vileplume,31,0.031
+Temperate Forest,Victreebel,31,0.031
+Temperate Forest,Pidgeot,29,0.029
+Temperate Forest,Venonat,29,0.029
+Temperate Forest,Venomoth,28,0.028
+Temperate Forest,Pikachu,27,0.027
+Temperate Forest,Ivysaur,27,0.027
+Temperate Forest,Paras,26,0.026
+Temperate Forest,Scyther,25,0.025
+Rainforest Edge,Pinsir,45,0.045
+Rainforest Edge,Weepinbell,44,0.044
+Rainforest Edge,Kakuna,44,0.044
+Rainforest Edge,Beedrill,42,0.042
+Rainforest Edge,Metapod,42,0.042
+Rainforest Edge,Bellsprout,39,0.039
+Rainforest Edge,Venusaur,39,0.039
+Rainforest Edge,Pidgey,39,0.039
+Rainforest Edge,Exeggcute,38,0.038
+Rainforest Edge,Victreebel,38,0.038
+Rainforest Edge,Ivysaur,38,0.038
+Rainforest Edge,Parasect,38,0.038
+Rainforest Edge,Pidgeotto,37,0.037
+Rainforest Edge,Butterfree,37,0.037
+Rainforest Edge,Venomoth,36,0.036
+Rainforest Edge,Caterpie,36,0.036
+Rainforest Edge,Pidgeot,34,0.034
+Rainforest Edge,Venonat,33,0.033
+Rainforest Edge,Paras,33,0.033
+Rainforest Edge,Exeggutor,32,0.032
+Rainforest Edge,Vileplume,32,0.032
+Rainforest Edge,Gloom,32,0.032
+Rainforest Edge,Tangela,30,0.03
+Rainforest Edge,Weedle,26,0.026
+Rainforest Edge,Raichu,26,0.026
+Rainforest Edge,Bulbasaur,26,0.026
+Rainforest Edge,Pikachu,22,0.022
+Rainforest Edge,Scyther,21,0.021
+Rainforest Edge,Oddish,21,0.021
+High Mountain Ridge,Clefable,62,0.062
+High Mountain Ridge,Cubone,46,0.046
+High Mountain Ridge,Snorlax,45,0.045
+High Mountain Ridge,Fearow,42,0.042
+High Mountain Ridge,Charizard,42,0.042
+High Mountain Ridge,Charmeleon,42,0.042
+High Mountain Ridge,Machop,41,0.041
+High Mountain Ridge,Charmander,41,0.041
+High Mountain Ridge,Magnemite,40,0.04
+High Mountain Ridge,Clefairy,39,0.039
+High Mountain Ridge,Magneton,39,0.039
+High Mountain Ridge,Sandshrew,39,0.039
+High Mountain Ridge,Magmar,39,0.039
+High Mountain Ridge,Sandslash,38,0.038
+High Mountain Ridge,Primeape,38,0.038
+High Mountain Ridge,Marowak,37,0.037
+High Mountain Ridge,Aerodactyl,37,0.037
+High Mountain Ridge,Golem,36,0.036
+High Mountain Ridge,Spearow,36,0.036
+High Mountain Ridge,Machoke,35,0.035
+High Mountain Ridge,Geodude,35,0.035
+High Mountain Ridge,Mankey,35,0.035
+High Mountain Ridge,Machamp,31,0.031
+High Mountain Ridge,Rhydon,30,0.03
+High Mountain Ridge,Graveler,28,0.028
+High Mountain Ridge,Rhyhorn,27,0.027
+Rocky Badlands,Golem,39,0.039
+Rocky Badlands,Charizard,38,0.038
+Rocky Badlands,Sandslash,35,0.035
+Rocky Badlands,Mankey,35,0.035
+Rocky Badlands,Sandshrew,35,0.035
+Rocky Badlands,Rhydon,33,0.033
+Rocky Badlands,Onix,32,0.032
+Rocky Badlands,Spearow,31,0.031
+Rocky Badlands,Ponyta,31,0.031
+Rocky Badlands,Ninetales,30,0.03
+Rocky Badlands,Moltres,29,0.029
+Rocky Badlands,Charmeleon,29,0.029
+Rocky Badlands,Graveler,28,0.028
+Rocky Badlands,Flareon,28,0.028
+Rocky Badlands,Rhyhorn,28,0.028
+Rocky Badlands,Rapidash,28,0.028
+Rocky Badlands,Machop,27,0.027
+Rocky Badlands,Cubone,27,0.027
+Rocky Badlands,Snorlax,27,0.027
+Rocky Badlands,Fearow,26,0.026
+Rocky Badlands,Aerodactyl,25,0.025
+Rocky Badlands,Machoke,24,0.024
+Rocky Badlands,Geodude,24,0.024
+Rocky Badlands,Clefable,24,0.024
+Rocky Badlands,Machamp,24,0.024
+Rocky Badlands,Clefairy,23,0.023
+Rocky Badlands,Primeape,22,0.022
+Rocky Badlands,Kabutops,21,0.021
+Rocky Badlands,Vulpix,21,0.021
+Rocky Badlands,Magnemite,20,0.02
+Rocky Badlands,Arcanine,20,0.02
+Rocky Badlands,Marowak,20,0.02
+Rocky Badlands,Charmander,19,0.019
+Rocky Badlands,Magneton,19,0.019
+Rocky Badlands,Growlithe,19,0.019
+Rocky Badlands,Magmar,16,0.016
+Rocky Badlands,Kabuto,16,0.016
+Rocky Badlands,Omastar,15,0.015
+Rocky Badlands,Omanyte,12,0.012
+Desert Dunes,Golem,72,0.072
+Desert Dunes,Fearow,70,0.07
+Desert Dunes,Geodude,69,0.069
+Desert Dunes,Diglett,68,0.068
+Desert Dunes,Cubone,64,0.064
+Desert Dunes,Sandshrew,63,0.063
+Desert Dunes,Sandslash,62,0.062
+Desert Dunes,Marowak,62,0.062
+Desert Dunes,Spearow,62,0.062
+Desert Dunes,Rhydon,60,0.06
+Desert Dunes,Rhyhorn,55,0.055
+Desert Dunes,Onix,54,0.054
+Desert Dunes,Graveler,51,0.051
+Desert Dunes,Magneton,48,0.048
+Desert Dunes,Dugtrio,43,0.043
+Desert Dunes,Nidoking,39,0.039
+Desert Dunes,Nidoqueen,33,0.033
+Desert Dunes,Magnemite,25,0.025
+Night Cave,Zubat,141,0.141
+Night Cave,Golbat,140,0.14
+Night Cave,Haunter,129,0.129
+Night Cave,Diglett,127,0.127
+Night Cave,Gengar,122,0.122
+Night Cave,Dugtrio,120,0.12
+Night Cave,Gastly,113,0.113
+Night Cave,Onix,108,0.108
+Freshwater Lake,Starmie,38,0.038
+Freshwater Lake,Slowbro,38,0.038
+Freshwater Lake,Poliwrath,38,0.038
+Freshwater Lake,Dragonair,36,0.036
+Freshwater Lake,Omastar,36,0.036
+Freshwater Lake,Magikarp,34,0.034
+Freshwater Lake,Vaporeon,34,0.034
+Freshwater Lake,Goldeen,33,0.033
+Freshwater Lake,Tentacool,33,0.033
+Freshwater Lake,Cloyster,33,0.033
+Freshwater Lake,Kingler,33,0.033
+Freshwater Lake,Seadra,33,0.033
+Freshwater Lake,Dewgong,32,0.032
+Freshwater Lake,Kabutops,31,0.031
+Freshwater Lake,Omanyte,30,0.03
+Freshwater Lake,Lapras,29,0.029
+Freshwater Lake,Golduck,29,0.029
+Freshwater Lake,Shellder,28,0.028
+Freshwater Lake,Slowpoke,28,0.028
+Freshwater Lake,Horsea,27,0.027
+Freshwater Lake,Seaking,27,0.027
+Freshwater Lake,Dratini,25,0.025
+Freshwater Lake,Krabby,25,0.025
+Freshwater Lake,Squirtle,24,0.024
+Freshwater Lake,Psyduck,24,0.024
+Freshwater Lake,Blastoise,24,0.024
+Freshwater Lake,Poliwag,24,0.024
+Freshwater Lake,Wartortle,23,0.023
+Freshwater Lake,Gyarados,23,0.023
+Freshwater Lake,Seel,23,0.023
+Freshwater Lake,Dragonite,22,0.022
+Freshwater Lake,Kabuto,22,0.022
+Freshwater Lake,Poliwhirl,21,0.021
+Freshwater Lake,Staryu,21,0.021
+Freshwater Lake,Tentacruel,19,0.019
+Riverbank,Seadra,41,0.041
+Riverbank,Omastar,40,0.04
+Riverbank,Dragonite,38,0.038
+Riverbank,Squirtle,37,0.037
+Riverbank,Wartortle,35,0.035
+Riverbank,Magikarp,34,0.034
+Riverbank,Dewgong,33,0.033
+Riverbank,Kabuto,33,0.033
+Riverbank,Blastoise,32,0.032
+Riverbank,Tentacool,32,0.032
+Riverbank,Omanyte,31,0.031
+Riverbank,Horsea,31,0.031
+Riverbank,Seel,30,0.03
+Riverbank,Dratini,29,0.029
+Riverbank,Poliwag,29,0.029
+Riverbank,Slowbro,29,0.029
+Riverbank,Cloyster,28,0.028
+Riverbank,Lapras,28,0.028
+Riverbank,Staryu,27,0.027
+Riverbank,Goldeen,27,0.027
+Riverbank,Seaking,27,0.027
+Riverbank,Poliwhirl,27,0.027
+Riverbank,Golduck,27,0.027
+Riverbank,Vaporeon,27,0.027
+Riverbank,Poliwrath,26,0.026
+Riverbank,Dragonair,26,0.026
+Riverbank,Gyarados,25,0.025
+Riverbank,Kingler,24,0.024
+Riverbank,Starmie,24,0.024
+Riverbank,Kabutops,23,0.023
+Riverbank,Psyduck,23,0.023
+Riverbank,Tentacruel,23,0.023
+Riverbank,Slowpoke,22,0.022
+Riverbank,Krabby,16,0.016
+Riverbank,Shellder,16,0.016
+Delta Wetland,Slowpoke,64,0.064
+Delta Wetland,Blastoise,64,0.064
+Delta Wetland,Slowbro,60,0.06
+Delta Wetland,Poliwag,58,0.058
+Delta Wetland,Dragonair,56,0.056
+Delta Wetland,Goldeen,55,0.055
+Delta Wetland,Wartortle,54,0.054
+Delta Wetland,Dratini,53,0.053
+Delta Wetland,Poliwrath,53,0.053
+Delta Wetland,Gyarados,53,0.053
+Delta Wetland,Poliwhirl,52,0.052
+Delta Wetland,Kingler,51,0.051
+Delta Wetland,Psyduck,50,0.05
+Delta Wetland,Seaking,50,0.05
+Delta Wetland,Dragonite,50,0.05
+Delta Wetland,Magikarp,47,0.047
+Delta Wetland,Squirtle,45,0.045
+Delta Wetland,Krabby,43,0.043
+Delta Wetland,Golduck,42,0.042
+Temperate Coast,Tentacruel,39,0.039
+Temperate Coast,Horsea,37,0.037
+Temperate Coast,Blastoise,37,0.037
+Temperate Coast,Psyduck,37,0.037
+Temperate Coast,Goldeen,35,0.035
+Temperate Coast,Dratini,34,0.034
+Temperate Coast,Squirtle,34,0.034
+Temperate Coast,Seel,34,0.034
+Temperate Coast,Shellder,34,0.034
+Temperate Coast,Poliwrath,33,0.033
+Temperate Coast,Krabby,33,0.033
+Temperate Coast,Lapras,32,0.032
+Temperate Coast,Omanyte,31,0.031
+Temperate Coast,Starmie,30,0.03
+Temperate Coast,Kingler,30,0.03
+Temperate Coast,Cloyster,29,0.029
+Temperate Coast,Dragonite,29,0.029
+Temperate Coast,Gyarados,29,0.029
+Temperate Coast,Poliwhirl,27,0.027
+Temperate Coast,Vaporeon,26,0.026
+Temperate Coast,Poliwag,26,0.026
+Temperate Coast,Dragonair,25,0.025
+Temperate Coast,Wartortle,25,0.025
+Temperate Coast,Magikarp,24,0.024
+Temperate Coast,Kabutops,24,0.024
+Temperate Coast,Dewgong,24,0.024
+Temperate Coast,Seadra,24,0.024
+Temperate Coast,Slowbro,24,0.024
+Temperate Coast,Staryu,23,0.023
+Temperate Coast,Slowpoke,23,0.023
+Temperate Coast,Golduck,22,0.022
+Temperate Coast,Seaking,22,0.022
+Temperate Coast,Kabuto,22,0.022
+Temperate Coast,Omastar,21,0.021
+Temperate Coast,Tentacool,21,0.021
+Open Ocean,Lapras,80,0.08
+Open Ocean,Starmie,79,0.079
+Open Ocean,Kabuto,75,0.075
+Open Ocean,Shellder,73,0.073
+Open Ocean,Kabutops,73,0.073
+Open Ocean,Cloyster,72,0.072
+Open Ocean,Horsea,69,0.069
+Open Ocean,Tentacool,66,0.066
+Open Ocean,Tentacruel,64,0.064
+Open Ocean,Dewgong,60,0.06
+Open Ocean,Seadra,59,0.059
+Open Ocean,Omastar,58,0.058
+Open Ocean,Seel,58,0.058
+Open Ocean,Staryu,58,0.058
+Open Ocean,Omanyte,56,0.056
+Cold Snowy Coast,Wartortle,46,0.046
+Cold Snowy Coast,Starmie,39,0.039
+Cold Snowy Coast,Seaking,35,0.035
+Cold Snowy Coast,Seel,35,0.035
+Cold Snowy Coast,Slowpoke,34,0.034
+Cold Snowy Coast,Dewgong,33,0.033
+Cold Snowy Coast,Tentacruel,33,0.033
+Cold Snowy Coast,Omanyte,32,0.032
+Cold Snowy Coast,Cloyster,32,0.032
+Cold Snowy Coast,Poliwhirl,31,0.031
+Cold Snowy Coast,Gyarados,31,0.031
+Cold Snowy Coast,Shellder,31,0.031
+Cold Snowy Coast,Squirtle,30,0.03
+Cold Snowy Coast,Poliwag,30,0.03
+Cold Snowy Coast,Kingler,30,0.03
+Cold Snowy Coast,Vaporeon,30,0.03
+Cold Snowy Coast,Golduck,30,0.03
+Cold Snowy Coast,Seadra,29,0.029
+Cold Snowy Coast,Lapras,28,0.028
+Cold Snowy Coast,Dratini,28,0.028
+Cold Snowy Coast,Krabby,27,0.027
+Cold Snowy Coast,Staryu,27,0.027
+Cold Snowy Coast,Goldeen,27,0.027
+Cold Snowy Coast,Tentacool,26,0.026
+Cold Snowy Coast,Blastoise,25,0.025
+Cold Snowy Coast,Kabuto,25,0.025
+Cold Snowy Coast,Dragonite,24,0.024
+Cold Snowy Coast,Horsea,24,0.024
+Cold Snowy Coast,Slowbro,24,0.024
+Cold Snowy Coast,Poliwrath,23,0.023
+Cold Snowy Coast,Kabutops,21,0.021
+Cold Snowy Coast,Magikarp,21,0.021
+Cold Snowy Coast,Psyduck,20,0.02
+Cold Snowy Coast,Omastar,20,0.02
+Cold Snowy Coast,Dragonair,19,0.019

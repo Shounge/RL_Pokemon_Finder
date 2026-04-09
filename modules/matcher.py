@@ -9,42 +9,79 @@ def score_pokemon(pokemon, env):
     weather_list = pokemon.get("weather", ["any"])
     near_water = pokemon.get("near_water", False)
 
-    if env["habitat"] in habitats:
-        score += 5
-        reasons.append(f"matches habitat: {env['habitat']}")
+    env_habitat = env["habitat"]
+    env_weather = env["weather"]
+    env_terrain = env["terrain"]
+    env_near_water = env["near_water"]
+    env_urban = env["urban"]
+
+    # --- 1. Core habitat match ---
+    if env_habitat in habitats:
+        score += 8
+        reasons.append(f"strong habitat match: {env_habitat}")
 
         if len(habitats) == 1:
-            score += 1
+            score += 2
             reasons.append("specialized habitat fit")
+    else:
+        score -= 6
+        reasons.append(f"habitat mismatch for {env_habitat}")
 
-    if env["weather"] in weather_list or "any" in weather_list:
+    # --- 2. Weather ---
+    if env_weather in weather_list or "any" in weather_list:
         score += 1
-        reasons.append(f"matches weather: {env['weather']}")
+        reasons.append(f"matches weather: {env_weather}")
+    else:
+        score -= 1
+        reasons.append(f"weather mismatch: {env_weather}")
 
-    if env["near_water"] == near_water:
+    # --- 3. Water access ---
+    if env_near_water == near_water:
         score += 2
-        if env["near_water"]:
+        if env_near_water:
             reasons.append("matches water access")
         else:
             reasons.append("matches dry land conditions")
+    else:
+        score -= 2
+        if env_near_water:
+            reasons.append("not suited for water-heavy area")
+        else:
+            reasons.append("prefers water access")
 
-    if env["terrain"] == "mountain" and "mountain" in habitats:
+    # --- 4. Terrain boosts ---
+    if env_terrain == "mountain" and "mountain" in habitats:
         score += 2
         reasons.append("mountain terrain fits this pokemon")
 
-    if env["urban"] and "urban" in habitats:
-        score += 1
+    if env_urban and "urban" in habitats:
+        score += 2
         reasons.append("urban surroundings fit this pokemon")
 
-    return score, reasons
+    # --- 5. Explicit biome conflict penalties ---
+    if env_habitat == "sand":
+        if any(h in habitats for h in ["forest", "grassland", "plains", "wetland"]):
+            score -= 4
+            reasons.append("poor fit for desert environment")
 
+    if env_habitat == "forest":
+        if any(h in habitats for h in ["sand", "rocky"]):
+            score -= 3
+            reasons.append("poor fit for dense forest")
+
+    if env_habitat in ["river", "lake", "wetland", "coast", "ocean"] and not near_water:
+        score -= 4
+        reasons.append("not a water-adapted pokemon")
+
+    return score, reasons
 
 def match_pokemon(pokemon_list, env):
     results = []
 
     for pokemon in pokemon_list:
         score, reasons = score_pokemon(pokemon, env)
-        if score > 0:
+
+        if score >= 3:
             results.append({
                 "name": pokemon["name"],
                 "score": score,
