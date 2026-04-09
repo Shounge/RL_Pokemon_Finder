@@ -8,6 +8,7 @@ def main():
     location_name = input("Enter a location: ").strip()
 
     location = get_coords(location_name)
+    print("Loading Pokemon data...")
     pokemon_list = load_pokemon_data()
     environment = analyze_environment(location)
     results = match_pokemon(pokemon_list, environment)

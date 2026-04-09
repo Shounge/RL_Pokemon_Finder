@@ -1,46 +1,2360 @@
 [
-  {"name": "Pikachu", "types": ["electric"], "habitats": ["forest", "plains"], "weather": ["clear", "cloudy"], "near_water": false},
-  {"name": "Raichu", "types": ["electric"], "habitats": ["forest", "plains"], "weather": ["clear"], "near_water": false},
-
-  {"name": "Bulbasaur", "types": ["grass", "poison"], "habitats": ["forest", "grassland"], "weather": ["rain", "clear"], "near_water": false},
-  {"name": "Oddish", "types": ["grass", "poison"], "habitats": ["forest", "grassland"], "weather": ["rain", "clear"], "near_water": false},
-  {"name": "Bellsprout", "types": ["grass", "poison"], "habitats": ["grassland", "forest"], "weather": ["clear", "rain"], "near_water": false},
-
-  {"name": "Caterpie", "types": ["bug"], "habitats": ["forest"], "weather": ["clear", "cloudy"], "near_water": false},
-  {"name": "Weedle", "types": ["bug", "poison"], "habitats": ["forest"], "weather": ["clear"], "near_water": false},
-
-  {"name": "Pidgey", "types": ["normal", "flying"], "habitats": ["plains", "urban"], "weather": ["any"], "near_water": false},
-  {"name": "Spearow", "types": ["normal", "flying"], "habitats": ["plains", "rocky"], "weather": ["clear"], "near_water": false},
-
-  {"name": "Rattata", "types": ["normal"], "habitats": ["urban", "plains"], "weather": ["any"], "near_water": false},
-  {"name": "Meowth", "types": ["normal"], "habitats": ["urban"], "weather": ["any"], "near_water": false},
-
-  {"name": "Growlithe", "types": ["fire"], "habitats": ["plains", "rocky"], "weather": ["clear"], "near_water": false},
-  {"name": "Vulpix", "types": ["fire"], "habitats": ["plains", "rocky"], "weather": ["clear"], "near_water": false},
-
-  {"name": "Geodude", "types": ["rock", "ground"], "habitats": ["mountain", "rocky"], "weather": ["clear", "cloudy"], "near_water": false},
-  {"name": "Onix", "types": ["rock", "ground"], "habitats": ["mountain", "cave"], "weather": ["any"], "near_water": false},
-
-  {"name": "Sandshrew", "types": ["ground"], "habitats": ["plains", "sand"], "weather": ["clear"], "near_water": false},
-  {"name": "Diglett", "types": ["ground"], "habitats": ["plains", "sand"], "weather": ["any"], "near_water": false},
-
-  {"name": "Magikarp", "types": ["water"], "habitats": ["river", "lake", "ocean"], "weather": ["any"], "near_water": true},
-  {"name": "Goldeen", "types": ["water"], "habitats": ["river", "lake"], "weather": ["any"], "near_water": true},
-  {"name": "Tentacool", "types": ["water", "poison"], "habitats": ["ocean", "coast"], "weather": ["any"], "near_water": true},
-
-  {"name": "Psyduck", "types": ["water"], "habitats": ["river", "lake", "wetland"], "weather": ["any"], "near_water": true},
-  {"name": "Poliwag", "types": ["water"], "habitats": ["river", "wetland"], "weather": ["rain", "any"], "near_water": true},
-
-  {"name": "Zubat", "types": ["poison", "flying"], "habitats": ["cave"], "weather": ["any"], "near_water": false},
-  {"name": "Golbat", "types": ["poison", "flying"], "habitats": ["cave"], "weather": ["any"], "near_water": false},
-
-  {"name": "Paras", "types": ["bug", "grass"], "habitats": ["forest", "wetland"], "weather": ["rain"], "near_water": false},
-
-  {"name": "Abra", "types": ["psychic"], "habitats": ["urban", "grassland"], "weather": ["clear"], "near_water": false},
-
-  {"name": "Machop", "types": ["fighting"], "habitats": ["mountain", "rocky"], "weather": ["any"], "near_water": false},
-
-  {"name": "Slowpoke", "types": ["water", "psychic"], "habitats": ["river", "lake"], "weather": ["any"], "near_water": true},
-
-  {"name": "Gastly", "types": ["ghost", "poison"], "habitats": ["urban", "cave"], "weather": ["cloudy", "night", "any"], "near_water": false}
+  {
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "habitats": [
+      "grassland",
+      "plains",
+      "forest"
+    ],
+    "weather": [
+      "clear",
+      "cloudy",
+      "rain"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Ivysaur",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "habitats": [
+      "grassland",
+      "plains",
+      "forest"
+    ],
+    "weather": [
+      "clear",
+      "cloudy",
+      "rain"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Venusaur",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "habitats": [
+      "grassland",
+      "plains",
+      "forest"
+    ],
+    "weather": [
+      "clear",
+      "cloudy",
+      "rain"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Charmander",
+    "types": [
+      "fire"
+    ],
+    "habitats": [
+      "mountain",
+      "rocky"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Charmeleon",
+    "types": [
+      "fire"
+    ],
+    "habitats": [
+      "mountain",
+      "rocky"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Charizard",
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "habitats": [
+      "mountain",
+      "rocky"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Squirtle",
+    "types": [
+      "water"
+    ],
+    "habitats": [
+      "river",
+      "lake",
+      "wetland",
+      "coast"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Wartortle",
+    "types": [
+      "water"
+    ],
+    "habitats": [
+      "river",
+      "lake",
+      "wetland",
+      "coast"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Blastoise",
+    "types": [
+      "water"
+    ],
+    "habitats": [
+      "river",
+      "lake",
+      "wetland",
+      "coast"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Caterpie",
+    "types": [
+      "bug"
+    ],
+    "habitats": [
+      "forest"
+    ],
+    "weather": [
+      "clear",
+      "cloudy",
+      "rain"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Metapod",
+    "types": [
+      "bug"
+    ],
+    "habitats": [
+      "forest"
+    ],
+    "weather": [
+      "clear",
+      "cloudy",
+      "rain"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Butterfree",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "habitats": [
+      "forest"
+    ],
+    "weather": [
+      "clear",
+      "cloudy",
+      "rain"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Weedle",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "habitats": [
+      "forest"
+    ],
+    "weather": [
+      "clear",
+      "cloudy",
+      "rain"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Kakuna",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "habitats": [
+      "forest"
+    ],
+    "weather": [
+      "clear",
+      "cloudy",
+      "rain"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Beedrill",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "habitats": [
+      "forest"
+    ],
+    "weather": [
+      "clear",
+      "cloudy",
+      "rain"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Pidgey",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "habitats": [
+      "forest"
+    ],
+    "weather": [
+      "clear",
+      "cloudy",
+      "rain"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Pidgeotto",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "habitats": [
+      "forest"
+    ],
+    "weather": [
+      "clear",
+      "cloudy",
+      "rain"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Pidgeot",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "habitats": [
+      "forest"
+    ],
+    "weather": [
+      "clear",
+      "cloudy",
+      "rain"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Rattata",
+    "types": [
+      "normal"
+    ],
+    "habitats": [
+      "grassland",
+      "plains"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Raticate",
+    "types": [
+      "normal"
+    ],
+    "habitats": [
+      "grassland",
+      "plains"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Spearow",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "habitats": [
+      "rocky",
+      "mountain",
+      "sand"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Fearow",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "habitats": [
+      "rocky",
+      "mountain",
+      "sand"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Ekans",
+    "types": [
+      "poison"
+    ],
+    "habitats": [
+      "grassland",
+      "plains"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Arbok",
+    "types": [
+      "poison"
+    ],
+    "habitats": [
+      "grassland",
+      "plains"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Pikachu",
+    "types": [
+      "electric"
+    ],
+    "habitats": [
+      "forest",
+      "plains"
+    ],
+    "weather": [
+      "clear",
+      "cloudy",
+      "rain"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Raichu",
+    "types": [
+      "electric"
+    ],
+    "habitats": [
+      "forest",
+      "plains"
+    ],
+    "weather": [
+      "clear",
+      "cloudy",
+      "rain"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Sandshrew",
+    "types": [
+      "ground"
+    ],
+    "habitats": [
+      "rocky",
+      "mountain",
+      "sand"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Sandslash",
+    "types": [
+      "ground"
+    ],
+    "habitats": [
+      "rocky",
+      "mountain",
+      "sand"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Nidoran-f",
+    "types": [
+      "poison"
+    ],
+    "habitats": [
+      "grassland",
+      "plains"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Nidorina",
+    "types": [
+      "poison"
+    ],
+    "habitats": [
+      "grassland",
+      "plains"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Nidoqueen",
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "habitats": [
+      "grassland",
+      "plains",
+      "sand"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Nidoran-m",
+    "types": [
+      "poison"
+    ],
+    "habitats": [
+      "grassland",
+      "plains"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Nidorino",
+    "types": [
+      "poison"
+    ],
+    "habitats": [
+      "grassland",
+      "plains"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Nidoking",
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "habitats": [
+      "grassland",
+      "plains",
+      "sand"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Clefairy",
+    "types": [
+      "fairy"
+    ],
+    "habitats": [
+      "mountain",
+      "rocky"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Clefable",
+    "types": [
+      "fairy"
+    ],
+    "habitats": [
+      "mountain",
+      "rocky"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Vulpix",
+    "types": [
+      "fire"
+    ],
+    "habitats": [
+      "grassland",
+      "plains",
+      "rocky"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Ninetales",
+    "types": [
+      "fire"
+    ],
+    "habitats": [
+      "grassland",
+      "plains",
+      "rocky"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Jigglypuff",
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "habitats": [
+      "grassland",
+      "plains"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Wigglytuff",
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "habitats": [
+      "grassland",
+      "plains"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Zubat",
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "habitats": [
+      "cave"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Golbat",
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "habitats": [
+      "cave"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Oddish",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "habitats": [
+      "grassland",
+      "plains",
+      "forest"
+    ],
+    "weather": [
+      "clear",
+      "cloudy",
+      "rain"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Gloom",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "habitats": [
+      "grassland",
+      "plains",
+      "forest"
+    ],
+    "weather": [
+      "clear",
+      "cloudy",
+      "rain"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Vileplume",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "habitats": [
+      "grassland",
+      "plains",
+      "forest"
+    ],
+    "weather": [
+      "clear",
+      "cloudy",
+      "rain"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Paras",
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "habitats": [
+      "forest"
+    ],
+    "weather": [
+      "clear",
+      "cloudy",
+      "rain"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Parasect",
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "habitats": [
+      "forest"
+    ],
+    "weather": [
+      "clear",
+      "cloudy",
+      "rain"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Venonat",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "habitats": [
+      "forest"
+    ],
+    "weather": [
+      "clear",
+      "cloudy",
+      "rain"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Venomoth",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "habitats": [
+      "forest"
+    ],
+    "weather": [
+      "clear",
+      "cloudy",
+      "rain"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Diglett",
+    "types": [
+      "ground"
+    ],
+    "habitats": [
+      "cave",
+      "sand"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Dugtrio",
+    "types": [
+      "ground"
+    ],
+    "habitats": [
+      "cave",
+      "sand"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Meowth",
+    "types": [
+      "normal"
+    ],
+    "habitats": [
+      "urban"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Persian",
+    "types": [
+      "normal"
+    ],
+    "habitats": [
+      "urban"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Psyduck",
+    "types": [
+      "water"
+    ],
+    "habitats": [
+      "river",
+      "lake",
+      "wetland",
+      "coast"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Golduck",
+    "types": [
+      "water"
+    ],
+    "habitats": [
+      "river",
+      "lake",
+      "wetland",
+      "coast"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Mankey",
+    "types": [
+      "fighting"
+    ],
+    "habitats": [
+      "mountain",
+      "rocky"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Primeape",
+    "types": [
+      "fighting"
+    ],
+    "habitats": [
+      "mountain",
+      "rocky"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Growlithe",
+    "types": [
+      "fire"
+    ],
+    "habitats": [
+      "grassland",
+      "plains",
+      "rocky"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Arcanine",
+    "types": [
+      "fire"
+    ],
+    "habitats": [
+      "grassland",
+      "plains",
+      "rocky"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Poliwag",
+    "types": [
+      "water"
+    ],
+    "habitats": [
+      "river",
+      "lake",
+      "wetland",
+      "coast"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Poliwhirl",
+    "types": [
+      "water"
+    ],
+    "habitats": [
+      "river",
+      "lake",
+      "wetland",
+      "coast"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Poliwrath",
+    "types": [
+      "water",
+      "fighting"
+    ],
+    "habitats": [
+      "river",
+      "lake",
+      "wetland",
+      "coast"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Abra",
+    "types": [
+      "psychic"
+    ],
+    "habitats": [
+      "urban"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Kadabra",
+    "types": [
+      "psychic"
+    ],
+    "habitats": [
+      "urban"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Alakazam",
+    "types": [
+      "psychic"
+    ],
+    "habitats": [
+      "urban"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Machop",
+    "types": [
+      "fighting"
+    ],
+    "habitats": [
+      "mountain",
+      "rocky"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Machoke",
+    "types": [
+      "fighting"
+    ],
+    "habitats": [
+      "mountain",
+      "rocky"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Machamp",
+    "types": [
+      "fighting"
+    ],
+    "habitats": [
+      "mountain",
+      "rocky"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Bellsprout",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "habitats": [
+      "forest"
+    ],
+    "weather": [
+      "clear",
+      "cloudy",
+      "rain"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Weepinbell",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "habitats": [
+      "forest"
+    ],
+    "weather": [
+      "clear",
+      "cloudy",
+      "rain"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Victreebel",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "habitats": [
+      "forest"
+    ],
+    "weather": [
+      "clear",
+      "cloudy",
+      "rain"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Tentacool",
+    "types": [
+      "water",
+      "poison"
+    ],
+    "habitats": [
+      "ocean",
+      "coast",
+      "river",
+      "lake"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Tentacruel",
+    "types": [
+      "water",
+      "poison"
+    ],
+    "habitats": [
+      "ocean",
+      "coast",
+      "river",
+      "lake"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Geodude",
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "habitats": [
+      "mountain",
+      "rocky",
+      "sand"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Graveler",
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "habitats": [
+      "mountain",
+      "rocky",
+      "sand"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Golem",
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "habitats": [
+      "mountain",
+      "rocky",
+      "sand"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Ponyta",
+    "types": [
+      "fire"
+    ],
+    "habitats": [
+      "grassland",
+      "plains",
+      "rocky"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Rapidash",
+    "types": [
+      "fire"
+    ],
+    "habitats": [
+      "grassland",
+      "plains",
+      "rocky"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Slowpoke",
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "habitats": [
+      "river",
+      "lake",
+      "wetland",
+      "coast"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Slowbro",
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "habitats": [
+      "river",
+      "lake",
+      "wetland",
+      "coast"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Magnemite",
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "habitats": [
+      "rocky",
+      "mountain",
+      "sand",
+      "plains"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Magneton",
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "habitats": [
+      "rocky",
+      "mountain",
+      "sand",
+      "plains"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Farfetchd",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "habitats": [
+      "grassland",
+      "plains"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Doduo",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "habitats": [
+      "grassland",
+      "plains"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Dodrio",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "habitats": [
+      "grassland",
+      "plains"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Seel",
+    "types": [
+      "water"
+    ],
+    "habitats": [
+      "ocean",
+      "coast",
+      "river",
+      "lake"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Dewgong",
+    "types": [
+      "water",
+      "ice"
+    ],
+    "habitats": [
+      "ocean",
+      "coast",
+      "river",
+      "lake"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Grimer",
+    "types": [
+      "poison"
+    ],
+    "habitats": [
+      "urban"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Muk",
+    "types": [
+      "poison"
+    ],
+    "habitats": [
+      "urban"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Shellder",
+    "types": [
+      "water"
+    ],
+    "habitats": [
+      "ocean",
+      "coast",
+      "river",
+      "lake"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Cloyster",
+    "types": [
+      "water",
+      "ice"
+    ],
+    "habitats": [
+      "ocean",
+      "coast",
+      "river",
+      "lake"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Gastly",
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "habitats": [
+      "cave"
+    ],
+    "weather": [
+      "cloudy",
+      "night",
+      "any"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Haunter",
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "habitats": [
+      "cave"
+    ],
+    "weather": [
+      "cloudy",
+      "night",
+      "any"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Gengar",
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "habitats": [
+      "cave"
+    ],
+    "weather": [
+      "cloudy",
+      "night",
+      "any"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Onix",
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "habitats": [
+      "cave",
+      "rocky",
+      "sand"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Drowzee",
+    "types": [
+      "psychic"
+    ],
+    "habitats": [
+      "grassland",
+      "plains"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Hypno",
+    "types": [
+      "psychic"
+    ],
+    "habitats": [
+      "grassland",
+      "plains"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Krabby",
+    "types": [
+      "water"
+    ],
+    "habitats": [
+      "river",
+      "lake",
+      "wetland",
+      "coast"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Kingler",
+    "types": [
+      "water"
+    ],
+    "habitats": [
+      "river",
+      "lake",
+      "wetland",
+      "coast"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Voltorb",
+    "types": [
+      "electric"
+    ],
+    "habitats": [
+      "urban",
+      "plains"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Electrode",
+    "types": [
+      "electric"
+    ],
+    "habitats": [
+      "urban",
+      "plains"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Exeggcute",
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "habitats": [
+      "forest"
+    ],
+    "weather": [
+      "clear",
+      "cloudy",
+      "rain"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Exeggutor",
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "habitats": [
+      "forest"
+    ],
+    "weather": [
+      "clear",
+      "cloudy",
+      "rain"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Cubone",
+    "types": [
+      "ground"
+    ],
+    "habitats": [
+      "mountain",
+      "rocky",
+      "sand"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Marowak",
+    "types": [
+      "ground"
+    ],
+    "habitats": [
+      "mountain",
+      "rocky",
+      "sand"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Hitmonlee",
+    "types": [
+      "fighting"
+    ],
+    "habitats": [
+      "urban"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Hitmonchan",
+    "types": [
+      "fighting"
+    ],
+    "habitats": [
+      "urban"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Lickitung",
+    "types": [
+      "normal"
+    ],
+    "habitats": [
+      "grassland",
+      "plains"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Koffing",
+    "types": [
+      "poison"
+    ],
+    "habitats": [
+      "urban"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Weezing",
+    "types": [
+      "poison"
+    ],
+    "habitats": [
+      "urban"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Rhyhorn",
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "habitats": [
+      "rocky",
+      "mountain",
+      "sand"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Rhydon",
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "habitats": [
+      "rocky",
+      "mountain",
+      "sand"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Chansey",
+    "types": [
+      "normal"
+    ],
+    "habitats": [
+      "urban"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Tangela",
+    "types": [
+      "grass"
+    ],
+    "habitats": [
+      "grassland",
+      "plains",
+      "forest"
+    ],
+    "weather": [
+      "clear",
+      "cloudy",
+      "rain"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Kangaskhan",
+    "types": [
+      "normal"
+    ],
+    "habitats": [
+      "grassland",
+      "plains"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Horsea",
+    "types": [
+      "water"
+    ],
+    "habitats": [
+      "ocean",
+      "coast",
+      "river",
+      "lake"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Seadra",
+    "types": [
+      "water"
+    ],
+    "habitats": [
+      "ocean",
+      "coast",
+      "river",
+      "lake"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Goldeen",
+    "types": [
+      "water"
+    ],
+    "habitats": [
+      "river",
+      "lake",
+      "wetland",
+      "coast"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Seaking",
+    "types": [
+      "water"
+    ],
+    "habitats": [
+      "river",
+      "lake",
+      "wetland",
+      "coast"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Staryu",
+    "types": [
+      "water"
+    ],
+    "habitats": [
+      "ocean",
+      "coast",
+      "river",
+      "lake"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Starmie",
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "habitats": [
+      "ocean",
+      "coast",
+      "river",
+      "lake"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Mr-mime",
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "habitats": [
+      "urban"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Scyther",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "habitats": [
+      "grassland",
+      "plains",
+      "forest"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Jynx",
+    "types": [
+      "ice",
+      "psychic"
+    ],
+    "habitats": [
+      "urban"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Electabuzz",
+    "types": [
+      "electric"
+    ],
+    "habitats": [
+      "grassland",
+      "plains"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Magmar",
+    "types": [
+      "fire"
+    ],
+    "habitats": [
+      "mountain",
+      "rocky"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Pinsir",
+    "types": [
+      "bug"
+    ],
+    "habitats": [
+      "forest"
+    ],
+    "weather": [
+      "clear",
+      "cloudy",
+      "rain"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Tauros",
+    "types": [
+      "normal"
+    ],
+    "habitats": [
+      "grassland",
+      "plains"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Magikarp",
+    "types": [
+      "water"
+    ],
+    "habitats": [
+      "river",
+      "lake",
+      "wetland",
+      "coast"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Gyarados",
+    "types": [
+      "water",
+      "flying"
+    ],
+    "habitats": [
+      "river",
+      "lake",
+      "wetland",
+      "coast"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Lapras",
+    "types": [
+      "water",
+      "ice"
+    ],
+    "habitats": [
+      "ocean",
+      "coast",
+      "river",
+      "lake"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Ditto",
+    "types": [
+      "normal"
+    ],
+    "habitats": [
+      "urban"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Eevee",
+    "types": [
+      "normal"
+    ],
+    "habitats": [
+      "urban"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Vaporeon",
+    "types": [
+      "water"
+    ],
+    "habitats": [
+      "urban",
+      "river",
+      "lake",
+      "coast"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Jolteon",
+    "types": [
+      "electric"
+    ],
+    "habitats": [
+      "urban",
+      "plains"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Flareon",
+    "types": [
+      "fire"
+    ],
+    "habitats": [
+      "urban",
+      "rocky"
+    ],
+    "weather": [
+      "clear"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Porygon",
+    "types": [
+      "normal"
+    ],
+    "habitats": [
+      "urban"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Omanyte",
+    "types": [
+      "rock",
+      "water"
+    ],
+    "habitats": [
+      "ocean",
+      "coast",
+      "rocky",
+      "river",
+      "lake"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Omastar",
+    "types": [
+      "rock",
+      "water"
+    ],
+    "habitats": [
+      "ocean",
+      "coast",
+      "rocky",
+      "river",
+      "lake"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Kabuto",
+    "types": [
+      "rock",
+      "water"
+    ],
+    "habitats": [
+      "ocean",
+      "coast",
+      "rocky",
+      "river",
+      "lake"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Kabutops",
+    "types": [
+      "rock",
+      "water"
+    ],
+    "habitats": [
+      "ocean",
+      "coast",
+      "rocky",
+      "river",
+      "lake"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Aerodactyl",
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "habitats": [
+      "mountain",
+      "rocky"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Snorlax",
+    "types": [
+      "normal"
+    ],
+    "habitats": [
+      "mountain",
+      "rocky"
+    ],
+    "weather": [
+      "clear",
+      "cloudy"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Articuno",
+    "types": [
+      "ice",
+      "flying"
+    ],
+    "habitats": [
+      "plains"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Zapdos",
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "habitats": [
+      "plains"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Moltres",
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "habitats": [
+      "plains",
+      "rocky"
+    ],
+    "weather": [
+      "clear"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Dratini",
+    "types": [
+      "dragon"
+    ],
+    "habitats": [
+      "river",
+      "lake",
+      "wetland",
+      "coast"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Dragonair",
+    "types": [
+      "dragon"
+    ],
+    "habitats": [
+      "river",
+      "lake",
+      "wetland",
+      "coast"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Dragonite",
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "habitats": [
+      "river",
+      "lake",
+      "wetland",
+      "coast"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": true
+  },
+  {
+    "name": "Mewtwo",
+    "types": [
+      "psychic"
+    ],
+    "habitats": [
+      "plains"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": false
+  },
+  {
+    "name": "Mew",
+    "types": [
+      "psychic"
+    ],
+    "habitats": [
+      "plains"
+    ],
+    "weather": [
+      "any"
+    ],
+    "near_water": false
+  }
 ]

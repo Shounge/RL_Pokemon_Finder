@@ -2,26 +2,34 @@ def score_pokemon(pokemon, env):
     score = 0
     reasons = []
 
-    if env["habitat"] in pokemon["habitats"]:
+    habitats = pokemon.get("habitats", [])
+    weather_list = pokemon.get("weather", ["any"])
+    near_water = pokemon.get("near_water", False)
+
+    if env["habitat"] in habitats:
         score += 5
         reasons.append(f"matches habitat: {env['habitat']}")
 
-    if env["weather"] in pokemon["weather"] or "any" in pokemon["weather"]:
+        if len(habitats) == 1:
+            score += 1
+            reasons.append("specialized habitat fit")
+
+    if env["weather"] in weather_list or "any" in weather_list:
         score += 1
         reasons.append(f"matches weather: {env['weather']}")
 
-    if env["near_water"] == pokemon["near_water"]:
+    if env["near_water"] == near_water:
         score += 2
         if env["near_water"]:
             reasons.append("matches water access")
         else:
             reasons.append("matches dry land conditions")
 
-    if env["terrain"] == "mountain" and "mountain" in pokemon["habitats"]:
+    if env["terrain"] == "mountain" and "mountain" in habitats:
         score += 2
         reasons.append("mountain terrain fits this pokemon")
 
-    if env["urban"] and "urban" in pokemon["habitats"]:
+    if env["urban"] and "urban" in habitats:
         score += 1
         reasons.append("urban surroundings fit this pokemon")
 
