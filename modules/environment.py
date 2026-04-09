@@ -75,11 +75,9 @@ def infer_habitat(location, terrain, broad_region):
     name = (location.get("name") or "").lower()
     country = (location.get("country") or "").lower()
     feature_code = (location.get("feature_code") or "").upper()
-    population = location.get("population") or 0
 
     text = f"{query} {name} {country}"
 
-    # Strong keyword matches from what the user typed
     if "sahara" in query or "desert" in query or "dune" in query:
         return "sand"
     if "delta" in text or "marsh" in text or "swamp" in text or "wetland" in text:
@@ -97,11 +95,9 @@ def infer_habitat(location, terrain, broad_region):
     if "cave" in text:
         return "cave"
 
-    # Settlement heuristic
     if feature_code.startswith("PPL"):
         return "urban"
 
-    # Geography fallback
     if terrain == "mountain":
         return "mountain"
     if terrain == "hilly":
@@ -130,8 +126,75 @@ def infer_near_water(location):
 def infer_urban(location, habitat):
     feature_code = (location.get("feature_code") or "").upper()
     population = location.get("population") or 0
-
     return habitat == "urban" or feature_code.startswith("PPL") or population > 100000
+
+
+def infer_temperature_band(temp_c):
+    if temp_c <= 5:
+        return "cold"
+    if temp_c <= 18:
+        return "mild"
+    if temp_c <= 28:
+        return "warm"
+    return "hot"
+
+
+def infer_biomes(location, habitat, terrain, broad_region, near_water, urban, temp_c):
+    biomes = set()
+    query = (location.get("query") or "").lower()
+    name = (location.get("name") or "").lower()
+    text = f"{query} {name}"
+
+    if urban:
+        biomes.add("urban")
+
+    if habitat in ["forest"]:
+        if broad_region == "tropical":
+            biomes.add("tropical_forest")
+        else:
+            biomes.add("temperate_forest")
+
+    if habitat in ["grassland", "plains"]:
+        biomes.add("plains")
+
+    if habitat in ["mountain", "rocky"] or terrain == "mountain":
+        biomes.add("alpine")
+
+    if habitat == "sand":
+        biomes.add("arid")
+
+    if habitat in ["wetland", "river", "lake"]:
+        biomes.add("freshwater")
+
+    if habitat == "wetland":
+        biomes.add("wetland")
+
+    if habitat in ["coast", "ocean"]:
+        biomes.add("coastal")
+
+    if "desert" in text or "sahara" in text:
+        biomes.add("arid")
+    if "rainforest" in text or "jungle" in text:
+        biomes.add("tropical_forest")
+    if "swamp" in text or "marsh" in text or "delta" in text:
+        biomes.add("wetland")
+    if "coast" in text or "beach" in text or "sea" in text or "ocean" in text:
+        biomes.add("coastal")
+    if "river" in text or "lake" in text:
+        biomes.add("freshwater")
+
+    if near_water and not {"freshwater", "coastal", "wetland"} & biomes:
+        biomes.add("freshwater")
+
+    if not biomes:
+        if broad_region == "tropical":
+            biomes.add("tropical_forest")
+        elif broad_region == "cold":
+            biomes.add("alpine")
+        else:
+            biomes.add("plains")
+
+    return sorted(biomes)
 
 
 def analyze_environment(location):
@@ -144,23 +207,30 @@ def analyze_environment(location):
     terrain = classify_terrain(elevation)
     broad_region = infer_broad_region(lat, elevation)
     weather = map_weather(current["weather_code"])
+    temp_c = current["temperature_2m"]
 
     habitat = infer_habitat(location, terrain, broad_region)
     near_water = infer_near_water(location)
     urban = infer_urban(location, habitat)
+    temperature_band = infer_temperature_band(temp_c)
+    biomes = infer_biomes(location, habitat, terrain, broad_region, near_water, urban, temp_c)
 
     print(f"[ENV DEBUG] query: {location.get('query')}")
     print(f"[ENV DEBUG] matched place: {location.get('name')}, {location.get('country')}")
     print(f"[ENV DEBUG] base habitat: {habitat}")
+    print(f"[ENV DEBUG] biomes: {biomes}")
+    print(f"[ENV DEBUG] temperature band: {temperature_band}")
 
     return {
         "habitat": habitat,
         "weather": weather,
-        "temperature_c": current["temperature_2m"],
+        "temperature_c": temp_c,
+        "temperature_band": temperature_band,
         "elevation_m": elevation,
         "terrain": terrain,
         "near_water": near_water,
         "urban": urban,
         "broad_region": broad_region,
+        "biomes": biomes,
         "osm_tags": []
     }

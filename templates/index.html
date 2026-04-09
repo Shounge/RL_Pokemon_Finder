@@ -156,6 +156,9 @@
                         <div class="env-chip"><span>Urban</span><strong>{{ environment.urban }}</strong></div>
                         <div class="env-chip"><span>Broad region</span><strong>{{ environment.broad_region }}</strong></div>
                         <div class="env-chip"><span>Elevation</span><strong>{{ environment.elevation_m }} m</strong></div>
+                        <div class="env-chip"><span>Temperature band</span><strong>{{ environment.temperature_band }}</strong></div>
+                        <div class="env-chip"><span>Biomes</span><strong>{{ environment.biomes|join(', ') }}</strong></div>
+                        <span class="chance-badge">{{ encounter.rarity }}</span>
                     </div>
                 </section>
             </div>
