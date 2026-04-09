@@ -26,7 +26,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
   },
   {
@@ -56,7 +57,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
   },
   {
@@ -86,7 +88,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
   },
   {
@@ -100,20 +103,21 @@
     ],
     "weather": [
       "clear",
-      "cloudy"
+      "cloudy",
+      "snow"
     ],
     "near_water": false,
     "biomes": [
       "alpine",
+      "rocky",
       "arid"
     ],
     "temperature_bands": [
-      "cold",
-      "mild",
       "warm",
       "hot"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
   },
   {
@@ -127,20 +131,21 @@
     ],
     "weather": [
       "clear",
-      "cloudy"
+      "cloudy",
+      "snow"
     ],
     "near_water": false,
     "biomes": [
       "alpine",
+      "rocky",
       "arid"
     ],
     "temperature_bands": [
-      "cold",
-      "mild",
       "warm",
       "hot"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
   },
   {
@@ -155,22 +160,23 @@
     ],
     "weather": [
       "clear",
-      "cloudy"
+      "cloudy",
+      "snow"
     ],
     "near_water": false,
     "biomes": [
       "alpine",
+      "rocky",
       "arid",
       "plains",
       "coastal"
     ],
     "temperature_bands": [
-      "cold",
-      "mild",
       "warm",
       "hot"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
   },
   {
@@ -197,7 +203,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
   },
   {
@@ -224,7 +231,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png"
   },
   {
@@ -251,7 +259,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"
   },
   {
@@ -276,7 +285,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 1.0,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png"
   },
   {
@@ -301,7 +311,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.471,
+    "rarity_label": "uncommon",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png"
   },
   {
@@ -330,7 +341,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
   },
   {
@@ -358,7 +370,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 1.0,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png"
   },
   {
@@ -386,7 +399,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.471,
+    "rarity_label": "uncommon",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png"
   },
   {
@@ -414,7 +428,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png"
   },
   {
@@ -443,7 +458,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 1.0,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png"
   },
   {
@@ -472,7 +488,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.471,
+    "rarity_label": "uncommon",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png"
   },
   {
@@ -501,7 +518,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png"
   },
   {
@@ -525,7 +543,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 1.0,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png"
   },
   {
@@ -549,7 +568,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.498,
+    "rarity_label": "uncommon",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png"
   },
   {
@@ -569,6 +589,7 @@
     ],
     "near_water": false,
     "biomes": [
+      "rocky",
       "alpine",
       "arid",
       "plains",
@@ -578,7 +599,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 1.0,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png"
   },
   {
@@ -598,6 +620,7 @@
     ],
     "near_water": false,
     "biomes": [
+      "rocky",
       "alpine",
       "arid",
       "plains",
@@ -607,7 +630,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.353,
+    "rarity_label": "uncommon",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png"
   },
   {
@@ -633,7 +657,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 1.0,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png"
   },
   {
@@ -659,7 +684,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.353,
+    "rarity_label": "uncommon",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png"
   },
   {
@@ -687,7 +713,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.745,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
   },
   {
@@ -715,7 +742,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.294,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png"
   },
   {
@@ -734,6 +762,7 @@
     ],
     "near_water": false,
     "biomes": [
+      "rocky",
       "alpine",
       "arid"
     ],
@@ -742,7 +771,8 @@
       "warm",
       "hot"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 1.0,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png"
   },
   {
@@ -761,6 +791,7 @@
     ],
     "near_water": false,
     "biomes": [
+      "rocky",
       "alpine",
       "arid"
     ],
@@ -769,7 +800,8 @@
       "warm",
       "hot"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.353,
+    "rarity_label": "uncommon",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png"
   },
   {
@@ -795,7 +827,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.922,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png"
   },
   {
@@ -821,7 +854,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.471,
+    "rarity_label": "uncommon",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png"
   },
   {
@@ -851,7 +885,8 @@
       "warm",
       "hot"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png"
   },
   {
@@ -877,7 +912,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.922,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png"
   },
   {
@@ -903,7 +939,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.471,
+    "rarity_label": "uncommon",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png"
   },
   {
@@ -933,7 +970,8 @@
       "warm",
       "hot"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png"
   },
   {
@@ -947,17 +985,20 @@
     ],
     "weather": [
       "clear",
-      "cloudy"
+      "cloudy",
+      "snow"
     ],
     "near_water": false,
     "biomes": [
-      "alpine"
+      "alpine",
+      "rocky"
     ],
     "temperature_bands": [
       "cold",
       "mild"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.588,
+    "rarity_label": "uncommon",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png"
   },
   {
@@ -971,17 +1012,20 @@
     ],
     "weather": [
       "clear",
-      "cloudy"
+      "cloudy",
+      "snow"
     ],
     "near_water": false,
     "biomes": [
-      "alpine"
+      "alpine",
+      "rocky"
     ],
     "temperature_bands": [
       "cold",
       "mild"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png"
   },
   {
@@ -1001,14 +1045,15 @@
     "near_water": false,
     "biomes": [
       "plains",
-      "arid"
+      "arid",
+      "rocky"
     ],
     "temperature_bands": [
-      "mild",
       "warm",
       "hot"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.745,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png"
   },
   {
@@ -1028,14 +1073,15 @@
     "near_water": false,
     "biomes": [
       "plains",
-      "arid"
+      "arid",
+      "rocky"
     ],
     "temperature_bands": [
-      "mild",
       "warm",
       "hot"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.294,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png"
   },
   {
@@ -1060,7 +1106,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.667,
+    "rarity_label": "uncommon",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png"
   },
   {
@@ -1085,7 +1132,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png"
   },
   {
@@ -1102,17 +1150,19 @@
     ],
     "near_water": false,
     "biomes": [
-      "alpine",
+      "cave",
       "urban",
       "wetland",
       "plains",
-      "coastal"
+      "coastal",
+      "alpine"
     ],
     "temperature_bands": [
       "cold",
       "mild"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 1.0,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png"
   },
   {
@@ -1129,17 +1179,19 @@
     ],
     "near_water": false,
     "biomes": [
-      "alpine",
+      "cave",
       "urban",
       "wetland",
       "plains",
-      "coastal"
+      "coastal",
+      "alpine"
     ],
     "temperature_bands": [
       "cold",
       "mild"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.353,
+    "rarity_label": "uncommon",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png"
   },
   {
@@ -1169,7 +1221,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 1.0,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png"
   },
   {
@@ -1199,7 +1252,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.471,
+    "rarity_label": "uncommon",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png"
   },
   {
@@ -1229,7 +1283,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png"
   },
   {
@@ -1256,7 +1311,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.745,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png"
   },
   {
@@ -1283,7 +1339,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.294,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png"
   },
   {
@@ -1311,7 +1368,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.745,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png"
   },
   {
@@ -1339,7 +1397,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.294,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png"
   },
   {
@@ -1356,7 +1415,7 @@
     ],
     "near_water": false,
     "biomes": [
-      "alpine",
+      "cave",
       "arid"
     ],
     "temperature_bands": [
@@ -1365,7 +1424,8 @@
       "warm",
       "hot"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 1.0,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png"
   },
   {
@@ -1382,7 +1442,7 @@
     ],
     "near_water": false,
     "biomes": [
-      "alpine",
+      "cave",
       "arid"
     ],
     "temperature_bands": [
@@ -1391,7 +1451,8 @@
       "warm",
       "hot"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png"
   },
   {
@@ -1410,9 +1471,11 @@
       "urban"
     ],
     "temperature_bands": [
-      "any"
+      "mild",
+      "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 1.0,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png"
   },
   {
@@ -1431,9 +1494,11 @@
       "urban"
     ],
     "temperature_bands": [
-      "any"
+      "mild",
+      "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.353,
+    "rarity_label": "uncommon",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png"
   },
   {
@@ -1460,7 +1525,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.745,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png"
   },
   {
@@ -1487,7 +1553,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.294,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png"
   },
   {
@@ -1501,11 +1568,13 @@
     ],
     "weather": [
       "clear",
-      "cloudy"
+      "cloudy",
+      "snow"
     ],
     "near_water": false,
     "biomes": [
       "alpine",
+      "rocky",
       "urban"
     ],
     "temperature_bands": [
@@ -1513,7 +1582,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.745,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png"
   },
   {
@@ -1527,11 +1597,13 @@
     ],
     "weather": [
       "clear",
-      "cloudy"
+      "cloudy",
+      "snow"
     ],
     "near_water": false,
     "biomes": [
       "alpine",
+      "rocky",
       "urban"
     ],
     "temperature_bands": [
@@ -1539,7 +1611,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.294,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png"
   },
   {
@@ -1559,14 +1632,15 @@
     "near_water": false,
     "biomes": [
       "plains",
-      "arid"
+      "arid",
+      "rocky"
     ],
     "temperature_bands": [
-      "mild",
       "warm",
       "hot"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.745,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png"
   },
   {
@@ -1586,14 +1660,15 @@
     "near_water": false,
     "biomes": [
       "plains",
-      "arid"
+      "arid",
+      "rocky"
     ],
     "temperature_bands": [
-      "mild",
       "warm",
       "hot"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.294,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png"
   },
   {
@@ -1620,7 +1695,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 1.0,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png"
   },
   {
@@ -1647,7 +1723,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.471,
+    "rarity_label": "uncommon",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png"
   },
   {
@@ -1677,7 +1754,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png"
   },
   {
@@ -1696,9 +1774,11 @@
       "urban"
     ],
     "temperature_bands": [
-      "any"
+      "mild",
+      "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.784,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png"
   },
   {
@@ -1717,9 +1797,11 @@
       "urban"
     ],
     "temperature_bands": [
-      "any"
+      "mild",
+      "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.392,
+    "rarity_label": "uncommon",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png"
   },
   {
@@ -1738,9 +1820,11 @@
       "urban"
     ],
     "temperature_bands": [
-      "any"
+      "mild",
+      "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png"
   },
   {
@@ -1754,11 +1838,13 @@
     ],
     "weather": [
       "clear",
-      "cloudy"
+      "cloudy",
+      "snow"
     ],
     "near_water": false,
     "biomes": [
       "alpine",
+      "rocky",
       "urban"
     ],
     "temperature_bands": [
@@ -1766,7 +1852,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.706,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png"
   },
   {
@@ -1780,11 +1867,13 @@
     ],
     "weather": [
       "clear",
-      "cloudy"
+      "cloudy",
+      "snow"
     ],
     "near_water": false,
     "biomes": [
       "alpine",
+      "rocky",
       "urban"
     ],
     "temperature_bands": [
@@ -1792,7 +1881,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.353,
+    "rarity_label": "uncommon",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png"
   },
   {
@@ -1806,11 +1896,13 @@
     ],
     "weather": [
       "clear",
-      "cloudy"
+      "cloudy",
+      "snow"
     ],
     "near_water": false,
     "biomes": [
       "alpine",
+      "rocky",
       "urban"
     ],
     "temperature_bands": [
@@ -1818,7 +1910,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png"
   },
   {
@@ -1847,7 +1940,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 1.0,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png"
   },
   {
@@ -1876,7 +1970,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.471,
+    "rarity_label": "uncommon",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png"
   },
   {
@@ -1905,7 +2000,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png"
   },
   {
@@ -1934,7 +2030,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.745,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png"
   },
   {
@@ -1963,7 +2060,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png"
   },
   {
@@ -1979,11 +2077,13 @@
     ],
     "weather": [
       "clear",
-      "cloudy"
+      "cloudy",
+      "snow"
     ],
     "near_water": false,
     "biomes": [
       "alpine",
+      "rocky",
       "arid"
     ],
     "temperature_bands": [
@@ -1992,7 +2092,8 @@
       "warm",
       "hot"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 1.0,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png"
   },
   {
@@ -2008,11 +2109,13 @@
     ],
     "weather": [
       "clear",
-      "cloudy"
+      "cloudy",
+      "snow"
     ],
     "near_water": false,
     "biomes": [
       "alpine",
+      "rocky",
       "arid"
     ],
     "temperature_bands": [
@@ -2021,7 +2124,8 @@
       "warm",
       "hot"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.471,
+    "rarity_label": "uncommon",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png"
   },
   {
@@ -2037,11 +2141,13 @@
     ],
     "weather": [
       "clear",
-      "cloudy"
+      "cloudy",
+      "snow"
     ],
     "near_water": false,
     "biomes": [
       "alpine",
+      "rocky",
       "arid"
     ],
     "temperature_bands": [
@@ -2050,7 +2156,8 @@
       "warm",
       "hot"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png"
   },
   {
@@ -2070,14 +2177,15 @@
     "near_water": false,
     "biomes": [
       "plains",
-      "arid"
+      "arid",
+      "rocky"
     ],
     "temperature_bands": [
-      "mild",
       "warm",
       "hot"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.745,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png"
   },
   {
@@ -2097,14 +2205,15 @@
     "near_water": false,
     "biomes": [
       "plains",
-      "arid"
+      "arid",
+      "rocky"
     ],
     "temperature_bands": [
-      "mild",
       "warm",
       "hot"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png"
   },
   {
@@ -2133,7 +2242,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.745,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png"
   },
   {
@@ -2162,7 +2272,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.294,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png"
   },
   {
@@ -2183,6 +2294,7 @@
     ],
     "near_water": false,
     "biomes": [
+      "rocky",
       "alpine",
       "arid",
       "plains",
@@ -2192,7 +2304,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.745,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png"
   },
   {
@@ -2213,6 +2326,7 @@
     ],
     "near_water": false,
     "biomes": [
+      "rocky",
       "alpine",
       "arid",
       "plains",
@@ -2222,7 +2336,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png"
   },
   {
@@ -2249,7 +2364,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png"
   },
   {
@@ -2276,7 +2392,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.745,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png"
   },
   {
@@ -2303,7 +2420,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png"
   },
   {
@@ -2329,7 +2447,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.745,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png"
   },
   {
@@ -2351,14 +2470,14 @@
     "biomes": [
       "coastal",
       "freshwater",
-      "alpine"
+      "alpine",
+      "snow"
     ],
     "temperature_bands": [
-      "mild",
-      "warm",
       "cold"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.294,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png"
   },
   {
@@ -2378,9 +2497,11 @@
       "wetland"
     ],
     "temperature_bands": [
-      "any"
+      "mild",
+      "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.745,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png"
   },
   {
@@ -2400,9 +2521,11 @@
       "wetland"
     ],
     "temperature_bands": [
-      "any"
+      "mild",
+      "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.294,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png"
   },
   {
@@ -2428,7 +2551,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.745,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png"
   },
   {
@@ -2450,14 +2574,14 @@
     "biomes": [
       "coastal",
       "freshwater",
-      "alpine"
+      "alpine",
+      "snow"
     ],
     "temperature_bands": [
-      "mild",
-      "warm",
       "cold"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png"
   },
   {
@@ -2470,12 +2594,11 @@
       "cave"
     ],
     "weather": [
-      "cloudy",
-      "any"
+      "cloudy"
     ],
     "near_water": false,
     "biomes": [
-      "alpine",
+      "cave",
       "urban",
       "wetland"
     ],
@@ -2483,7 +2606,8 @@
       "cold",
       "mild"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.745,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png"
   },
   {
@@ -2496,12 +2620,11 @@
       "cave"
     ],
     "weather": [
-      "cloudy",
-      "any"
+      "cloudy"
     ],
     "near_water": false,
     "biomes": [
-      "alpine",
+      "cave",
       "urban",
       "wetland"
     ],
@@ -2509,7 +2632,8 @@
       "cold",
       "mild"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.353,
+    "rarity_label": "uncommon",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png"
   },
   {
@@ -2522,12 +2646,11 @@
       "cave"
     ],
     "weather": [
-      "cloudy",
-      "any"
+      "cloudy"
     ],
     "near_water": false,
     "biomes": [
-      "alpine",
+      "cave",
       "urban",
       "wetland"
     ],
@@ -2535,7 +2658,8 @@
       "cold",
       "mild"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png"
   },
   {
@@ -2554,6 +2678,8 @@
     ],
     "near_water": false,
     "biomes": [
+      "cave",
+      "rocky",
       "alpine",
       "arid"
     ],
@@ -2563,7 +2689,8 @@
       "warm",
       "hot"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png"
   },
   {
@@ -2588,7 +2715,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.745,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png"
   },
   {
@@ -2613,7 +2741,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.294,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png"
   },
   {
@@ -2640,7 +2769,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.882,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png"
   },
   {
@@ -2667,7 +2797,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png"
   },
   {
@@ -2688,11 +2819,11 @@
       "plains"
     ],
     "temperature_bands": [
-      "any",
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.745,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png"
   },
   {
@@ -2713,11 +2844,11 @@
       "plains"
     ],
     "temperature_bands": [
-      "any",
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png"
   },
   {
@@ -2745,7 +2876,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.353,
+    "rarity_label": "uncommon",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png"
   },
   {
@@ -2773,7 +2905,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png"
   },
   {
@@ -2788,11 +2921,13 @@
     ],
     "weather": [
       "clear",
-      "cloudy"
+      "cloudy",
+      "snow"
     ],
     "near_water": false,
     "biomes": [
       "alpine",
+      "rocky",
       "arid"
     ],
     "temperature_bands": [
@@ -2801,7 +2936,8 @@
       "warm",
       "hot"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.745,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png"
   },
   {
@@ -2816,11 +2952,13 @@
     ],
     "weather": [
       "clear",
-      "cloudy"
+      "cloudy",
+      "snow"
     ],
     "near_water": false,
     "biomes": [
       "alpine",
+      "rocky",
       "arid"
     ],
     "temperature_bands": [
@@ -2829,7 +2967,8 @@
       "warm",
       "hot"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.294,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png"
   },
   {
@@ -2849,11 +2988,11 @@
       "alpine"
     ],
     "temperature_bands": [
-      "any",
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png"
   },
   {
@@ -2873,11 +3012,11 @@
       "alpine"
     ],
     "temperature_bands": [
-      "any",
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png"
   },
   {
@@ -2901,7 +3040,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png"
   },
   {
@@ -2921,9 +3061,11 @@
       "wetland"
     ],
     "temperature_bands": [
-      "any"
+      "mild",
+      "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.745,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png"
   },
   {
@@ -2943,9 +3085,11 @@
       "wetland"
     ],
     "temperature_bands": [
-      "any"
+      "mild",
+      "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png"
   },
   {
@@ -2965,6 +3109,7 @@
     ],
     "near_water": false,
     "biomes": [
+      "rocky",
       "alpine",
       "arid"
     ],
@@ -2974,7 +3119,8 @@
       "hot",
       "cold"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.471,
+    "rarity_label": "uncommon",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png"
   },
   {
@@ -2994,6 +3140,7 @@
     ],
     "near_water": false,
     "biomes": [
+      "rocky",
       "alpine",
       "arid"
     ],
@@ -3003,7 +3150,8 @@
       "hot",
       "cold"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png"
   },
   {
@@ -3022,9 +3170,11 @@
       "urban"
     ],
     "temperature_bands": [
-      "any"
+      "mild",
+      "warm"
     ],
-    "rarity": "rare",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png"
   },
   {
@@ -3051,7 +3201,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png"
   },
   {
@@ -3075,7 +3226,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png"
   },
   {
@@ -3101,7 +3253,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.882,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png"
   },
   {
@@ -3127,7 +3280,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.294,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png"
   },
   {
@@ -3154,7 +3308,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.882,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png"
   },
   {
@@ -3181,7 +3336,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png"
   },
   {
@@ -3207,7 +3363,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.882,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png"
   },
   {
@@ -3235,7 +3392,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png"
   },
   {
@@ -3255,9 +3413,11 @@
       "urban"
     ],
     "temperature_bands": [
-      "any"
+      "mild",
+      "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png"
   },
   {
@@ -3286,7 +3446,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "rare",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png"
   },
   {
@@ -3305,13 +3466,13 @@
     "biomes": [
       "urban",
       "alpine",
-      "coastal"
+      "snow"
     ],
     "temperature_bands": [
-      "any",
       "cold"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png"
   },
   {
@@ -3336,7 +3497,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png"
   },
   {
@@ -3350,20 +3512,21 @@
     ],
     "weather": [
       "clear",
-      "cloudy"
+      "cloudy",
+      "snow"
     ],
     "near_water": false,
     "biomes": [
       "alpine",
+      "rocky",
       "arid"
     ],
     "temperature_bands": [
-      "cold",
-      "mild",
       "warm",
       "hot"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png"
   },
   {
@@ -3388,7 +3551,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "rare",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png"
   },
   {
@@ -3412,7 +3576,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png"
   },
   {
@@ -3439,7 +3604,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 1.0,
+    "rarity_label": "common",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png"
   },
   {
@@ -3469,7 +3635,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png"
   },
   {
@@ -3491,14 +3658,14 @@
     "biomes": [
       "coastal",
       "freshwater",
-      "alpine"
+      "alpine",
+      "snow"
     ],
     "temperature_bands": [
-      "mild",
-      "warm",
       "cold"
     ],
-    "rarity": "rare",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png"
   },
   {
@@ -3517,9 +3684,11 @@
       "urban"
     ],
     "temperature_bands": [
-      "any"
+      "mild",
+      "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png"
   },
   {
@@ -3538,9 +3707,11 @@
       "urban"
     ],
     "temperature_bands": [
-      "any"
+      "mild",
+      "warm"
     ],
-    "rarity": "rare",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"
   },
   {
@@ -3564,11 +3735,11 @@
       "coastal"
     ],
     "temperature_bands": [
-      "any",
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png"
   },
   {
@@ -3589,11 +3760,11 @@
       "plains"
     ],
     "temperature_bands": [
-      "any",
       "mild",
       "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png"
   },
   {
@@ -3611,14 +3782,15 @@
     "near_water": false,
     "biomes": [
       "urban",
-      "arid"
+      "arid",
+      "rocky"
     ],
     "temperature_bands": [
-      "any",
       "warm",
       "hot"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png"
   },
   {
@@ -3637,9 +3809,11 @@
       "urban"
     ],
     "temperature_bands": [
-      "any"
+      "mild",
+      "warm"
     ],
-    "rarity": "rare",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png"
   },
   {
@@ -3661,15 +3835,16 @@
     "near_water": true,
     "biomes": [
       "coastal",
+      "rocky",
       "alpine",
       "freshwater"
     ],
     "temperature_bands": [
       "mild",
-      "warm",
-      "cold"
+      "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png"
   },
   {
@@ -3691,15 +3866,16 @@
     "near_water": true,
     "biomes": [
       "coastal",
+      "rocky",
       "alpine",
       "freshwater"
     ],
     "temperature_bands": [
       "mild",
-      "warm",
-      "cold"
+      "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png"
   },
   {
@@ -3721,15 +3897,16 @@
     "near_water": true,
     "biomes": [
       "coastal",
+      "rocky",
       "alpine",
       "freshwater"
     ],
     "temperature_bands": [
       "mild",
-      "warm",
-      "cold"
+      "warm"
     ],
-    "rarity": "uncommon",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png"
   },
   {
@@ -3751,15 +3928,16 @@
     "near_water": true,
     "biomes": [
       "coastal",
+      "rocky",
       "alpine",
       "freshwater"
     ],
     "temperature_bands": [
       "mild",
-      "warm",
-      "cold"
+      "warm"
     ],
-    "rarity": "common",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png"
   },
   {
@@ -3774,11 +3952,13 @@
     ],
     "weather": [
       "clear",
-      "cloudy"
+      "cloudy",
+      "snow"
     ],
     "near_water": false,
     "biomes": [
       "alpine",
+      "rocky",
       "plains",
       "coastal"
     ],
@@ -3786,7 +3966,8 @@
       "cold",
       "mild"
     ],
-    "rarity": "rare",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png"
   },
   {
@@ -3800,17 +3981,20 @@
     ],
     "weather": [
       "clear",
-      "cloudy"
+      "cloudy",
+      "snow"
     ],
     "near_water": false,
     "biomes": [
-      "alpine"
+      "alpine",
+      "rocky"
     ],
     "temperature_bands": [
       "cold",
       "mild"
     ],
-    "rarity": "rare",
+    "rarity_multiplier": 0.25,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png"
   },
   {
@@ -3829,13 +4013,14 @@
     "biomes": [
       "plains",
       "alpine",
+      "snow",
       "coastal"
     ],
     "temperature_bands": [
-      "any",
       "cold"
     ],
-    "rarity": "ultra_rare",
+    "rarity_multiplier": 0.05,
+    "rarity_label": "ultra_rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png"
   },
   {
@@ -3858,11 +4043,11 @@
       "alpine"
     ],
     "temperature_bands": [
-      "any",
       "mild",
       "warm"
     ],
-    "rarity": "ultra_rare",
+    "rarity_multiplier": 0.05,
+    "rarity_label": "ultra_rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png"
   },
   {
@@ -3882,15 +4067,16 @@
     "biomes": [
       "plains",
       "arid",
+      "rocky",
       "coastal",
       "alpine"
     ],
     "temperature_bands": [
-      "any",
       "warm",
       "hot"
     ],
-    "rarity": "ultra_rare",
+    "rarity_multiplier": 0.05,
+    "rarity_label": "ultra_rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png"
   },
   {
@@ -3918,7 +4104,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "rare",
+    "rarity_multiplier": 0.2,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png"
   },
   {
@@ -3946,7 +4133,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "rare",
+    "rarity_multiplier": 0.2,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png"
   },
   {
@@ -3976,7 +4164,8 @@
       "mild",
       "warm"
     ],
-    "rarity": "rare",
+    "rarity_multiplier": 0.2,
+    "rarity_label": "rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png"
   },
   {
@@ -3998,7 +4187,8 @@
     "temperature_bands": [
       "any"
     ],
-    "rarity": "ultra_rare",
+    "rarity_multiplier": 0.05,
+    "rarity_label": "ultra_rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png"
   },
   {
@@ -4020,7 +4210,8 @@
     "temperature_bands": [
       "any"
     ],
-    "rarity": "ultra_rare",
+    "rarity_multiplier": 0.05,
+    "rarity_label": "ultra_rare",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png"
   }
 ]

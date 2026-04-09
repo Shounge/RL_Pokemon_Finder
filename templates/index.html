@@ -19,7 +19,7 @@
                     <h1>Discover what Pokémon would live there.</h1>
                     <p class="hero-copy">
                         Enter any real-world location and get a wild encounter plus a ranked list
-                        based on habitat, weather, terrain, water access, and region.
+                        based on habitat, weather, terrain, water access, temperature, biome, and region.
                     </p>
                 </div>
 
@@ -95,6 +95,11 @@
                                 This Pokémon was selected from the weighted match pool for this location.
                             </p>
 
+                            <div class="match-badges" style="margin-bottom: 12px;">
+                                <span class="score-badge">Score {{ encounter.score }}</span>
+                                <span class="chance-badge">{{ encounter.rarity_label.replace('_', ' ') }}</span>
+                            </div>
+
                             <div class="reasons-list">
                                 {% for reason in encounter.reasons %}
                                 <div class="reason-chip">{{ reason }}</div>
@@ -152,13 +157,12 @@
                         <div class="env-chip"><span>Weather</span><strong>{{ environment.weather }}</strong></div>
                         <div class="env-chip"><span>Terrain</span><strong>{{ environment.terrain }}</strong></div>
                         <div class="env-chip"><span>Temperature</span><strong>{{ environment.temperature_c }}°C</strong></div>
+                        <div class="env-chip"><span>Temp band</span><strong>{{ environment.temperature_band }}</strong></div>
                         <div class="env-chip"><span>Near water</span><strong>{{ environment.near_water }}</strong></div>
                         <div class="env-chip"><span>Urban</span><strong>{{ environment.urban }}</strong></div>
                         <div class="env-chip"><span>Broad region</span><strong>{{ environment.broad_region }}</strong></div>
                         <div class="env-chip"><span>Elevation</span><strong>{{ environment.elevation_m }} m</strong></div>
-                        <div class="env-chip"><span>Temperature band</span><strong>{{ environment.temperature_band }}</strong></div>
-                        <div class="env-chip"><span>Biomes</span><strong>{{ environment.biomes|join(', ') }}</strong></div>
-                        <span class="chance-badge">{{ encounter.rarity }}</span>
+                        <div class="env-chip"><span>Biomes</span><strong>{{ environment.biomes | join(', ') }}</strong></div>
                     </div>
                 </section>
             </div>
@@ -184,7 +188,7 @@
                     </div>
 
                     <p class="side-note">
-                        Stronger habitat matches and environment fit increase weighted encounter chance.
+                        Better ecological fit increases score. Rarity multiplier lowers spawn chance for harder-to-find Pokémon.
                     </p>
                 </section>
             </aside>
@@ -232,6 +236,7 @@
                                     <div class="match-badges">
                                         <span class="score-badge">Score {{ pokemon.score }}</span>
                                         <span class="chance-badge">{{ pokemon.chance }}%</span>
+                                        <span class="chance-badge">{{ pokemon.rarity_label.replace('_', ' ') }}</span>
                                     </div>
                                 </div>
                             </div>

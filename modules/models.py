@@ -21,16 +21,16 @@ HABITAT_MAP = {
     },
     "mountain": {
         "habitats": ["mountain", "rocky"],
-        "weather": ["clear", "cloudy"],
+        "weather": ["clear", "cloudy", "snow"],
         "near_water": False,
-        "biomes": ["alpine"],
+        "biomes": ["alpine", "rocky"],
         "temperature_bands": ["cold", "mild"],
     },
     "cave": {
         "habitats": ["cave"],
         "weather": ["any"],
         "near_water": False,
-        "biomes": ["alpine"],
+        "biomes": ["cave"],
         "temperature_bands": ["cold", "mild"],
     },
     "sea": {
@@ -52,13 +52,13 @@ HABITAT_MAP = {
         "weather": ["any"],
         "near_water": False,
         "biomes": ["urban"],
-        "temperature_bands": ["any"],
+        "temperature_bands": ["mild", "warm"],
     },
     "rough-terrain": {
         "habitats": ["rocky", "mountain", "sand"],
         "weather": ["clear", "cloudy"],
         "near_water": False,
-        "biomes": ["alpine", "arid"],
+        "biomes": ["rocky", "alpine", "arid"],
         "temperature_bands": ["mild", "warm"],
     },
     None: {
@@ -75,17 +75,17 @@ TYPE_HINTS = {
         "habitats_add": ["river", "lake", "coast"],
         "near_water": True,
         "biomes_add": ["freshwater", "coastal"],
-        "temperature_bands_add": ["mild", "warm"],
+        "temperature_bands_override": ["mild", "warm"],
     },
-    "rock": {
+    "fire": {
         "habitats_add": ["rocky"],
-        "biomes_add": ["alpine"],
-        "temperature_bands_add": ["cold", "mild"],
+        "weather_add": ["clear"],
+        "biomes_add": ["arid", "rocky"],
+        "temperature_bands_override": ["warm", "hot"],
     },
-    "ground": {
-        "habitats_add": ["sand"],
-        "biomes_add": ["arid"],
-        "temperature_bands_add": ["warm", "hot"],
+    "ice": {
+        "biomes_add": ["alpine", "snow"],
+        "temperature_bands_override": ["cold"],
     },
     "grass": {
         "habitats_add": ["forest"],
@@ -93,16 +93,15 @@ TYPE_HINTS = {
         "biomes_add": ["temperate_forest", "plains"],
         "temperature_bands_add": ["mild", "warm"],
     },
-    "bug": {
-        "habitats_add": ["forest"],
-        "biomes_add": ["temperate_forest"],
-        "temperature_bands_add": ["mild", "warm"],
-    },
-    "fire": {
-        "habitats_add": ["rocky"],
-        "weather_add": ["clear"],
+    "ground": {
+        "habitats_add": ["sand"],
         "biomes_add": ["arid"],
         "temperature_bands_add": ["warm", "hot"],
+    },
+    "rock": {
+        "habitats_add": ["rocky"],
+        "biomes_add": ["rocky", "alpine"],
+        "temperature_bands_add": ["mild", "cold"],
     },
     "electric": {
         "habitats_add": ["plains"],
@@ -111,23 +110,20 @@ TYPE_HINTS = {
     },
     "ghost": {
         "habitats_add": ["cave"],
-        "weather_add": ["cloudy", "any"],
-        "biomes_add": ["urban", "alpine"],
+        "weather_add": ["cloudy"],
+        "biomes_add": ["cave", "urban"],
         "temperature_bands_add": ["cold", "mild"],
     },
-    "ice": {
-        "biomes_add": ["alpine", "coastal"],
-        "temperature_bands_add": ["cold"],
-    },
-    "fighting": {
-        "biomes_add": ["urban", "alpine"],
+    "bug": {
+        "habitats_add": ["forest"],
+        "biomes_add": ["temperate_forest"],
         "temperature_bands_add": ["mild", "warm"],
-    },
-    "poison": {
-        "biomes_add": ["urban", "wetland"],
     },
     "flying": {
         "biomes_add": ["plains", "coastal", "alpine"],
+    },
+    "poison": {
+        "biomes_add": ["urban", "wetland"],
     },
     "psychic": {
         "biomes_add": ["urban"],
@@ -136,31 +132,10 @@ TYPE_HINTS = {
         "biomes_add": ["coastal", "freshwater", "alpine"],
         "temperature_bands_add": ["mild", "warm"],
     },
-}
-
-RARITY_OVERRIDES = {
-    "articuno": "ultra_rare",
-    "zapdos": "ultra_rare",
-    "moltres": "ultra_rare",
-    "mewtwo": "ultra_rare",
-    "mew": "ultra_rare",
-    "dragonite": "rare",
-    "dratini": "rare",
-    "dragonair": "rare",
-    "lapras": "rare",
-    "snorlax": "rare",
-    "aerodactyl": "rare",
-    "chansey": "rare",
-    "eevee": "rare",
-    "porygon": "rare",
-    "scyther": "rare",
-    "pinsir": "rare",
-}
-
-TYPE_RARITY_DEFAULTS = {
-    "dragon": "rare",
-    "ice": "uncommon",
-    "ghost": "uncommon",
+    "fighting": {
+        "biomes_add": ["urban", "alpine"],
+        "temperature_bands_add": ["mild", "warm"],
+    },
 }
 
 
@@ -181,28 +156,39 @@ def merge_unique(*lists):
     return merged
 
 
-def infer_rarity(name, types, is_legendary, is_mythical, evolves_from_species):
-    if is_legendary or is_mythical:
+def compute_rarity_multiplier(species, types):
+    if species.get("is_legendary") or species.get("is_mythical"):
+        return 0.05
+
+    capture_rate = species.get("capture_rate", 255)
+    is_baby = species.get("is_baby", False)
+
+    multiplier = max(0.25, min(1.0, capture_rate / 255))
+
+    if is_baby:
+        multiplier *= 0.8
+
+    if "dragon" in types:
+        multiplier *= 0.8
+
+    return round(multiplier, 3)
+
+
+def rarity_label_from_multiplier(multiplier):
+    if multiplier <= 0.10:
         return "ultra_rare"
-
-    if name in RARITY_OVERRIDES:
-        return RARITY_OVERRIDES[name]
-
-    for ptype in types:
-        if ptype in TYPE_RARITY_DEFAULTS:
-            return TYPE_RARITY_DEFAULTS[ptype]
-
-    if evolves_from_species is None:
+    if multiplier <= 0.35:
+        return "rare"
+    if multiplier <= 0.70:
         return "uncommon"
-
     return "common"
 
 
 def build_pokemon_record(name):
     pokemon = get_json(f"{POKEAPI_BASE}/pokemon/{name}")
     species = get_json(f"{POKEAPI_BASE}/pokemon-species/{name}")
-    sprite = pokemon["sprites"]["front_default"]
 
+    sprite = pokemon["sprites"]["front_default"]
     types = [entry["type"]["name"] for entry in pokemon["types"]]
     official_habitat = species["habitat"]["name"] if species["habitat"] else None
 
@@ -211,14 +197,14 @@ def build_pokemon_record(name):
     habitats = list(base["habitats"])
     weather = list(base["weather"])
     near_water = base["near_water"]
-    biomes = list(base["biomes"])
-    temperature_bands = list(base["temperature_bands"])
+    biomes = list(base.get("biomes", []))
+    temperature_bands = list(base.get("temperature_bands", ["any"]))
 
     for ptype in types:
         hint = TYPE_HINTS.get(ptype, {})
+
         habitats = merge_unique(habitats, hint.get("habitats_add", []))
         biomes = merge_unique(biomes, hint.get("biomes_add", []))
-        temperature_bands = merge_unique(temperature_bands, hint.get("temperature_bands_add", []))
 
         if hint.get("weather_add"):
             if "any" in weather:
@@ -228,16 +214,22 @@ def build_pokemon_record(name):
         if hint.get("near_water"):
             near_water = True
 
+        if hint.get("temperature_bands_override"):
+            temperature_bands = list(hint["temperature_bands_override"])
+        else:
+            temperature_bands = merge_unique(
+                temperature_bands,
+                hint.get("temperature_bands_add", [])
+            )
+
+    if "any" in temperature_bands and len(temperature_bands) > 1:
+        temperature_bands = [t for t in temperature_bands if t != "any"]
+
     if not weather:
         weather = ["any"]
 
-    rarity = infer_rarity(
-        name=name,
-        types=types,
-        is_legendary=species.get("is_legendary", False),
-        is_mythical=species.get("is_mythical", False),
-        evolves_from_species=species.get("evolves_from_species"),
-    )
+    rarity_multiplier = compute_rarity_multiplier(species, types)
+    rarity_label = rarity_label_from_multiplier(rarity_multiplier)
 
     return {
         "name": pokemon["name"].capitalize(),
@@ -247,7 +239,8 @@ def build_pokemon_record(name):
         "near_water": near_water,
         "biomes": biomes,
         "temperature_bands": temperature_bands,
-        "rarity": rarity,
+        "rarity_multiplier": rarity_multiplier,
+        "rarity_label": rarity_label,
         "sprite": sprite,
     }
 

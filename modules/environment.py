@@ -139,7 +139,7 @@ def infer_temperature_band(temp_c):
     return "hot"
 
 
-def infer_biomes(location, habitat, terrain, broad_region, near_water, urban, temp_c):
+def infer_biomes(location, habitat, terrain, broad_region, near_water, urban):
     biomes = set()
     query = (location.get("query") or "").lower()
     name = (location.get("name") or "").lower()
@@ -148,7 +148,7 @@ def infer_biomes(location, habitat, terrain, broad_region, near_water, urban, te
     if urban:
         biomes.add("urban")
 
-    if habitat in ["forest"]:
+    if habitat == "forest":
         if broad_region == "tropical":
             biomes.add("tropical_forest")
         else:
@@ -159,20 +159,22 @@ def infer_biomes(location, habitat, terrain, broad_region, near_water, urban, te
 
     if habitat in ["mountain", "rocky"] or terrain == "mountain":
         biomes.add("alpine")
+        biomes.add("rocky")
 
     if habitat == "sand":
         biomes.add("arid")
 
-    if habitat in ["wetland", "river", "lake"]:
+    if habitat in ["river", "lake"]:
         biomes.add("freshwater")
 
     if habitat == "wetland":
         biomes.add("wetland")
+        biomes.add("freshwater")
 
     if habitat in ["coast", "ocean"]:
         biomes.add("coastal")
 
-    if "desert" in text or "sahara" in text:
+    if "desert" in text or "sahara" in text or "dune" in text:
         biomes.add("arid")
     if "rainforest" in text or "jungle" in text:
         biomes.add("tropical_forest")
@@ -183,7 +185,7 @@ def infer_biomes(location, habitat, terrain, broad_region, near_water, urban, te
     if "river" in text or "lake" in text:
         biomes.add("freshwater")
 
-    if near_water and not {"freshwater", "coastal", "wetland"} & biomes:
+    if near_water and not {"freshwater", "wetland", "coastal"} & biomes:
         biomes.add("freshwater")
 
     if not biomes:
@@ -213,7 +215,7 @@ def analyze_environment(location):
     near_water = infer_near_water(location)
     urban = infer_urban(location, habitat)
     temperature_band = infer_temperature_band(temp_c)
-    biomes = infer_biomes(location, habitat, terrain, broad_region, near_water, urban, temp_c)
+    biomes = infer_biomes(location, habitat, terrain, broad_region, near_water, urban)
 
     print(f"[ENV DEBUG] query: {location.get('query')}")
     print(f"[ENV DEBUG] matched place: {location.get('name')}, {location.get('country')}")
