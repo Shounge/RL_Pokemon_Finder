@@ -245,7 +245,7 @@ def build_pokemon_record(name):
     }
 
 
-def build_pokemon_data(filepath="data/pokemon_data.json", limit=151):
+def build_pokemon_data(filepath="data/pokemon_data.json", limit=9999):
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
 
     listing = get_json(f"{POKEAPI_BASE}/pokemon?limit={limit}&offset=0")
